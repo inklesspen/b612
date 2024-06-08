@@ -11,7 +11,7 @@
     <key>descender</key>
     <integer>-500</integer>
     <key>familyName</key>
-    <string>B612</string>
+    <string>B612 Mod</string>
     <key>guidelines</key>
     <array>
       <dict>
@@ -126,7 +126,7 @@
     <key>macintoshFONDFamilyID</key>
     <integer>128</integer>
     <key>macintoshFONDName</key>
-    <string>B612</string>
+    <string>B612 Mod</string>
     <key>openTypeGaspRangeRecords</key>
     <array>
       <dict>
@@ -182,7 +182,7 @@
     <key>openTypeNameManufacturerURL</key>
     <string></string>
     <key>openTypeNamePreferredFamilyName</key>
-    <string>B612</string>
+    <string>B612 Mod</string>
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Regular</string>
     <key>openTypeNameRecords</key>
@@ -197,7 +197,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>B612</string>
+        <string>B612 Mod</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -209,7 +209,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>B612</string>
+        <string>B612 Mod</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -257,7 +257,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>Airbus: B612 Regular: Version1.008</string>
+        <string>Airbus: B612 Mod Regular: Version1.009</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -269,7 +269,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>Airbus: B612 Regular: Version1.008</string>
+        <string>Airbus: B612 Mod Regular: Version1.009</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -281,7 +281,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>B612 Regular</string>
+        <string>B612 Mod Regular</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -293,7 +293,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>B612 Regular</string>
+        <string>B612 Mod Regular</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -305,7 +305,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>Version 1.008</string>
+        <string>Version 1.009</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -317,7 +317,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>Version 1.008</string>
+        <string>Version 1.009</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -329,7 +329,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>B612-Regular</string>
+        <string>B612Mod-Regular</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -341,7 +341,7 @@
         <key>platformID</key>
         <integer>3</integer>
         <key>string</key>
-        <string>B612-Regular</string>
+        <string>B612Mod-Regular</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -473,7 +473,7 @@
         <key>platformID</key>
         <integer>1</integer>
         <key>string</key>
-        <string>B612 Regular</string>
+        <string>B612 Mod Regular</string>
       </dict>
       <dict>
         <key>encodingID</key>
@@ -491,9 +491,9 @@
     <key>openTypeNameSampleText</key>
     <string></string>
     <key>openTypeNameUniqueID</key>
-    <string>Airbus: B612 Regular: Version1.008</string>
+    <string>Airbus: B612 Mod Regular: Version1.009</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.008</string>
+    <string>Version 1.009</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
@@ -606,11 +606,11 @@
     <key>postscriptFamilyOtherBlues</key>
     <array/>
     <key>postscriptFontName</key>
-    <string>B612-Regular</string>
+    <string>B612Mod-Regular</string>
     <key>postscriptForceBold</key>
     <false/>
     <key>postscriptFullName</key>
-    <string>B612 Regular</string>
+    <string>B612 Mod Regular</string>
     <key>postscriptIsFixedPitch</key>
     <false/>
     <key>postscriptOtherBlues</key>
@@ -636,7 +636,7 @@
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>styleMapFamilyName</key>
-    <string>B612</string>
+    <string>B612 Mod</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>styleName</key>
