@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="infinity" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="infinity" format="2">
   <advance width="1300"/>
   <unicode hex="221E"/>
   <outline>
@@ -97,16 +97,21 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: 176"/>
-          <ttc code="singleh" point1="ah02" point2="sh02" stem="eq X: 176"/>
-          <ttc code="interpolatev" point="iv01" point1="iv02" point2="iv03"/>
-          <ttc code="interpolatev" point="ah01" point1="iv02" point2="iv03"/>
-          <ttc code="interpolatev" point="ah02" point1="iv04" point2="iv05"/>
-          <ttc code="interpolatev" point="iv06" point1="iv04" point2="iv05"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TVNJ
+      Z2NHOXBiblF5UFNKemFEQXhJaUJ6ZEdWdFBTSmxjU0JZT2lBeE56WWlMejRLSUNBZ0lEe
+      DBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSmhhREF5SWlCd2IybHVkRE
+      k5SW5Ob01ESWlJSE4wWlcwOUltVnhJRmc2SURFM05pSXZQZ29nSUNBZ1BIUjBZeUJqYjJ
+      SbFBTSnBiblJsY25CdmJHRjBaWFlpSUhCdmFXNTBQU0pwZGpBeElpQndiMmx1ZERFOUlt
+      bDJNRElpSUhCdmFXNTBNajBpYVhZd015SXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnBib
+      lJsY25CdmJHRjBaWFlpSUhCdmFXNTBQU0poYURBeElpQndiMmx1ZERFOUltbDJNRElpSU
+      hCdmFXNTBNajBpYVhZd015SXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnBiblJsY25CdmJ
+      HRjBaWFlpSUhCdmFXNTBQU0poYURBeUlpQndiMmx1ZERFOUltbDJNRFFpSUhCdmFXNTBN
+      ajBpYVhZd05TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnBiblJsY25CdmJHRjBaWFlpS
+      UhCdmFXNTBQU0pwZGpBMklpQndiMmx1ZERFOUltbDJNRFFpSUhCdmFXNTBNajBpYVhZd0
+      5TSXZQZ29nSUR3dmRIUlFjbTluY21GdFBnbz0=
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Beta" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Beta" format="2">
   <advance width="1300"/>
   <unicode hex="0392"/>
   <outline>
@@ -77,11 +77,11 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKaFlqQXhJaUJ3YjJs
+      dWRESTlJbk4yTURFaUx6NEtJQ0E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
     </dict>
   </lib>

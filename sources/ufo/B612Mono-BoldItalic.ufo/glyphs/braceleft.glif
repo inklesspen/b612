@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="braceleft" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="braceleft" format="2">
   <advance width="1300"/>
   <unicode hex="007B"/>
+  <guideline x="0" y="550" angle="0"/>
+  <guideline x="0" y="475" angle="0"/>
   <outline>
     <contour>
       <point x="1078" y="1260" type="line" name="hr00"/>
@@ -69,53 +71,34 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="-399" width="-21"/>
-            <hstem pos="475" width="150"/>
-            <hstem pos="1519" width="-20"/>
-            <vstem pos="500" width="200"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -399 -21</string>
+              <string>hstem 475 150</string>
+              <string>hstem 1519 -20</string>
+              <string>vstem 500 200</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="14" ppm2="14"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="interpolatev" point="iv01" point1="at01" point2="av01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlpMHlJaUJ3Y0cweFBTSXhOQ0lnY0hCdE1qMG
+      lNVFFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd4cFoyNTJJaUJ3YjJsdWREMGlZWFl
+      3TVNJZ1lXeHBaMjQ5SW5KdmRXNWtJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdk
+      dWRDSWdjRzlwYm5ROUltRjBNREVpSUhwdmJtVTlJblE2SURFaUx6NEtJQ0FnSUR4MGRHT
+      WdZMjlrWlQwaWFXNTBaWEp3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TVNJZ2NHOXBibl
+      F4UFNKaGREQXhJaUJ3YjJsdWRESTlJbUYyTURFaUx6NEtJQ0E4TDNSMFVISnZaM0poYlQ
+      0Sw==
       </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>550</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>475</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

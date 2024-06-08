@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="backslash" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
   <advance width="1300"/>
   <unicode hex="005C"/>
   <outline>
@@ -14,12 +14,13 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc code="singlev" point1="av01" point2="sv01"/>
-          <ttc code="singlev" point1="av02" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTJJaUJ3YjJsdWREMGlZWFl3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYWWlJSEJ2YVc1ME1UMGlZWFl3TVNJ
+      Z2NHOXBiblF5UFNKemRqQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYW
+      WlJSEJ2YVc1ME1UMGlZWFl3TWlJZ2NHOXBiblF5UFNKemRqQXlJaTgrQ2lBZ1BDOTBkRk
+      J5YjJkeVlXMCtDZz09
       </data>
     </dict>
   </lib>

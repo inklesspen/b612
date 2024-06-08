@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Thorn" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn" format="2">
   <advance width="1300"/>
   <unicode hex="00DE"/>
   <outline>
@@ -46,19 +46,25 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="21" width="-21"/>
-            <hstem pos="301" width="156"/>
-            <hstem pos="1051" width="150"/>
-            <hstem pos="1500" width="-20"/>
-            <vstem pos="200" width="200"/>
-            <vstem pos="870" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 301 156</string>
+              <string>hstem 1051 150</string>
+              <string>hstem 1500 -20</string>
+              <string>vstem 200 200</string>
+              <string>vstem 870 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

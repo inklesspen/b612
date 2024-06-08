@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Idieresis" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis" format="2">
   <advance width="1300"/>
   <unicode hex="00CF"/>
   <outline>
@@ -32,35 +32,175 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="at01">
-            <hstem pos="19" width="-21"/>
-            <hstem pos="1518" width="-20"/>
-            <vstem pos="167" width="262"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 19 -21</string>
+              <string>hstem 1518 -20</string>
+              <string>vstem 167 262</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="at01" point2="sv01"/>
-          <ttc code="singlev" point1="ab01" point2="sv02"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="15" ppm2="15"/>
-          <ttc code="mdeltah" delta="1" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="8" point="mh03" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="6" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc code="singlev" point1="av01" point2="mh01"/>
-          <ttc code="singlev" point1="mh01" point2="sv03" stem="Y: 171"/>
-          <ttc code="singlev" point1="av02" point2="mh02"/>
-          <ttc code="singlev" point1="mh02" point2="sv04" stem="Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKaGREQXhJaUJ3YjJs
+      dWRESTlJbk4yTURFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHO
+      XBiblF4UFNKaFlqQXhJaUJ3YjJsdWRESTlJbk4yTURJaUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaWJXUmxiSFJoYUNJZ2NHOXBiblE5SW0xb01ERWlJR1JsYkhSaFBTSXRNaUlnY0h
+      CdE1UMGlNVFVpSUhCd2JUSTlJakUxSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pX
+      eDBZV2dpSUhCdmFXNTBQU0p0YURBeUlpQmtaV3gwWVQwaU1TSWdjSEJ0TVQwaU1UTWlJS
+      EJ3YlRJOUlqRXpJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJSEJ2YV
+      c1MFBTSnRhREF6SWlCa1pXeDBZVDBpT0NJZ2NIQnRNVDBpTVRNaUlIQndiVEk5SWpFekl
+      pOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVdnaUlIQnZhVzUwUFNKdGFEQXpJ
+      aUJrWld4MFlUMGlOaUlnY0hCdE1UMGlNVElpSUhCd2JUSTlJakV5SWk4K0NpQWdJQ0E4Z
+      EhSaklHTnZaR1U5SW1Gc2FXZHVkaUlnY0c5cGJuUTlJbUYyTURFaUlHRnNhV2R1UFNKeW
+      IzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkdsbmJuWWlJSEJ2YVc1MFBTSmh
+      kakF5SWlCaGJHbG5iajBpY205MWJtUWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1
+      WjJ4bGRpSWdjRzlwYm5ReFBTSmhkakF4SWlCd2IybHVkREk5SW0xb01ERWlMejRLSUNBZ
+      0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5ReFBTSnRhREF4SWlCd2IybH
+      VkREk5SW5OMk1ETWlJSE4wWlcwOUlsazZJREUzTVNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJ
+      sUFNKemFXNW5iR1YySWlCd2IybHVkREU5SW1GMk1ESWlJSEJ2YVc1ME1qMGliV2d3TWlJ
+      dlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1YySWlCd2IybHVkREU5SW0xb01ES
+      WlJSEJ2YVc1ME1qMGljM1l3TkNJZ2MzUmxiVDBpV1RvZ01UY3hJaTgrQ2lBZ1BDOTBkRk
+      J5YjJkeVlXMCtDZz09
       </data>
+      <key>com.fontlab.v5.background</key>
+      <dict>
+        <key>data</key>
+        <dict>
+          <key>bytes</key>
+          <array>
+            <integer>0</integer>
+            <integer>102</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>102</integer>
+            <integer>0</integer>
+          </array>
+          <key>extra</key>
+          <array>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>60</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+          </array>
+          <key>num_bytes</key>
+          <integer>7</integer>
+        </dict>
+        <key>len</key>
+        <integer>97</integer>
+        <key>origin</key>
+        <array>
+          <integer>-333</integer>
+          <integer>-416</integer>
+        </array>
+        <key>size_pixels</key>
+        <array>
+          <integer>24</integer>
+          <integer>24</integer>
+        </array>
+        <key>size_units</key>
+        <array>
+          <integer>1666</integer>
+          <integer>1583</integer>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

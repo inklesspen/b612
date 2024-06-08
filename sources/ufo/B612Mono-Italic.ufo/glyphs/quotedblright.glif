@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedblright" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright" format="2">
   <advance width="1300"/>
   <unicode hex="201D"/>
   <outline>
@@ -56,16 +56,22 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="6" point="mh01" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="2" point="mh02" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="6" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="2" point="mh03" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="6" point="mh04" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="2" point="mh05" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="6" point="mh06" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="2" point="mh06" ppm1="13" ppm2="13"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqWWlJSEJ3YlRFOUlqRXlJaUJ3Y0cweVBTSX
+      hNaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d
+      3TWlJZ1pHVnNkR0U5SWpJaUlIQndiVEU5SWpFeUlpQndjRzB5UFNJeE1pSXZQZ29nSUNB
+      Z1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaWJXZ3dNeUlnWkdWc2RHR
+      TlJallpSUhCd2JURTlJakV5SWlCd2NHMHlQU0l4TWlJdlBnb2dJQ0FnUEhSMFl5QmpiMl
+      JsUFNKdFpHVnNkR0ZvSWlCd2IybHVkRDBpYldnd015SWdaR1ZzZEdFOUlqSWlJSEJ3YlR
+      FOUlqRXpJaUJ3Y0cweVBTSXhNeUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RH
+      Rm9JaUJ3YjJsdWREMGliV2d3TkNJZ1pHVnNkR0U5SWpZaUlIQndiVEU5SWpFeUlpQndjR
+      zB5UFNJeE1pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZE
+      QwaWJXZ3dOU0lnWkdWc2RHRTlJaklpSUhCd2JURTlJakV5SWlCd2NHMHlQU0l4TWlJdlB
+      nb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd2IybHVkRDBpYldnd05pSWda
+      R1ZzZEdFOUlqWWlJSEJ3YlRFOUlqRXlJaUJ3Y0cweVBTSXhNaUl2UGdvZ0lDQWdQSFIwW
+      XlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d3TmlJZ1pHVnNkR0U5SWpJaU
+      lIQndiVEU5SWpFeklpQndjRzB5UFNJeE15SXZQZ29nSUR3dmRIUlFjbTluY21GdFBnbz0
+      =
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotaccent" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccent" format="2">
   <advance width="1300"/>
   <unicode hex="02D9"/>
   <outline>
@@ -14,11 +14,12 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="singlev" point1="at01" point2="sv01"/>
-          <ttc code="singlev" point1="sv01" point2="sv02" stem="Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbk5wYm1kc1pYWWlJSEJ2YVc1ME1UMGlZWFF3TVNJZ2NHOXBiblF5UFNKemRqQXhJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYWWlJSEJ2YVc1ME1UMGljM1l3TVNJ
+      Z2NHOXBiblF5UFNKemRqQXlJaUJ6ZEdWdFBTSlpPaUF4TnpFaUx6NEtJQ0E4TDNSMFVIS
+      nZaM0poYlQ0Sw==
       </data>
     </dict>
   </lib>

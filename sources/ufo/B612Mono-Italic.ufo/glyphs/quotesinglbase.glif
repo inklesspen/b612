@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotesinglbase" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesinglbase" format="2">
   <advance width="1300"/>
   <unicode hex="201A"/>
   <outline>
@@ -32,14 +32,17 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="6" point="mh01" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="2" point="mh02" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="6" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltah" delta="2" point="mh03" ppm1="13" ppm2="13"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignb" point="mh03" zone="b: 0"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqWWlJSEJ3YlRFOUlqRXlJaUJ3Y0cweVBTSX
+      hNaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d
+      3TWlJZ1pHVnNkR0U5SWpJaUlIQndiVEU5SWpFeUlpQndjRzB5UFNJeE1pSXZQZ29nSUNB
+      Z1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaWJXZ3dNeUlnWkdWc2RHR
+      TlJallpSUhCd2JURTlJakV5SWlCd2NHMHlQU0l4TWlJdlBnb2dJQ0FnUEhSMFl5QmpiMl
+      JsUFNKdFpHVnNkR0ZvSWlCd2IybHVkRDBpYldnd015SWdaR1ZzZEdFOUlqSWlJSEJ3YlR
+      FOUlqRXpJaUJ3Y0cweVBTSXhNeUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkdsbmJu
+      WWlJSEJ2YVc1MFBTSmhkakF4SWlCaGJHbG5iajBpY205MWJtUWlMejRLSUNBZ0lEeDBkR
+      01nWTI5a1pUMGlZV3hwWjI1aUlpQndiMmx1ZEQwaWJXZ3dNeUlnZW05dVpUMGlZam9nTU
+      NJdlBnb2dJRHd2ZEhSUWNtOW5jbUZ0UGdvPQ==
       </data>
     </dict>
   </lib>

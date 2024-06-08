@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onehalf" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onehalf" format="2">
   <advance width="1500"/>
   <unicode hex="00BD"/>
   <outline>
     <contour>
-      <point x="454" y="0" type="line"/>
+      <point x="454" y="0" type="line" name="hr00"/>
       <point x="319" y="0" type="line"/>
       <point x="1094" y="1500" type="line"/>
       <point x="1220" y="1500" type="line"/>
@@ -74,16 +74,32 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="0" width="80"/>
-            <hstem pos="674" width="84"/>
-            <vstem pos="1290" width="98"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 720 80</string>
+              <string>hstem 1470 10</string>
+              <string>vstem 297 105</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 80</string>
+              <string>hstem 674 84</string>
+              <string>vstem 1290 98</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

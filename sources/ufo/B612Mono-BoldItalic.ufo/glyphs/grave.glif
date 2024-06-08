@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="grave" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="grave" format="2">
   <advance width="1300"/>
   <unicode hex="0060"/>
   <outline>
@@ -12,23 +12,30 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="ah01">
-            <hstem pos="1221" width="-21"/>
-            <hstem pos="1520" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1221 -21</string>
+              <string>hstem 1520 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 190"/>
-          <ttc align="round" code="alignv" point="ah01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpYzJsdVoyeGxhQ0lnY0c5cGJuUXhQU0poYURBeElpQndiMmx1ZERJOUluTm9NREV
+      pSUhOMFpXMDlJbGc2SURFNU1DSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5Z
+      aUlIQnZhVzUwUFNKaGFEQXhJaUJoYkdsbmJqMGljbTkxYm1RaUx6NEtJQ0FnSUR4MGRHT
+      WdZMjlrWlQwaVlXeHBaMjUwSWlCd2IybHVkRDBpWVhRd01TSWdlbTl1WlQwaWREb2dNU0
+      l2UGdvZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

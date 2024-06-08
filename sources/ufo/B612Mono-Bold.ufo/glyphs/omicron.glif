@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="omicron" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicron" format="2">
   <advance width="1300"/>
   <unicode hex="03BF"/>
   <outline>
@@ -50,34 +50,48 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="mh01">
-            <hstem pos="-17" width="220"/>
-            <hstem pos="897" width="224"/>
-            <vstem pos="109" width="327"/>
-            <vstem pos="866" width="326"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>mh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 220</string>
+              <string>hstem 897 224</string>
+              <string>vstem 109 327</string>
+              <string>vstem 866 326</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="lsb"/>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc code="mdeltah" delta="-3" point="mh01" ppm1="18" ppm2="18"/>
-          <ttc code="singleh" point1="lsb" point2="sh01" round="true"/>
-          <ttc code="singleh" point1="ah01" point2="sh02" stem="eq X: 199"/>
-          <ttc code="mdeltah" delta="2" point="mh02" ppm1="18" ppm2="18"/>
-          <ttc code="singleh" point1="sh01" point2="sh03" stem="eq X: 199"/>
-          <ttc code="singleh" point1="sh02" point2="rsb" round="true"/>
-          <ttc code="alignt" point="at01" zone="t: x"/>
-          <ttc code="alignb" point="mh01" zone="b: 0"/>
-          <ttc code="mdeltav" delta="3" point="mv01" ppm1="18" ppm2="18"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 162"/>
-          <ttc code="singlev" point1="mh01" point2="sv02" stem="eq Y: 153"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0pzYzJJaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUm
+      xQU0poYkdsbmJtZ2lJSEJ2YVc1MFBTSmhhREF4SWlCaGJHbG5iajBpY205MWJtUWlMejR
+      LSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUltMW9NREVpSUdS
+      bGJIUmhQU0l0TXlJZ2NIQnRNVDBpTVRnaUlIQndiVEk5SWpFNElpOCtDaUFnSUNBOGRIU
+      mpJR052WkdVOUluTnBibWRzWldnaUlIQnZhVzUwTVQwaWJITmlJaUJ3YjJsdWRESTlJbk
+      5vTURFaUlISnZkVzVrUFNKMGNuVmxJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1
+      kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TVNJZ2NHOXBiblF5UFNKemFEQXlJaUJ6ZEdWdFBT
+      SmxjU0JZT2lBeE9Ua2lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjR
+      zlwYm5ROUltMW9NRElpSUdSbGJIUmhQU0l5SWlCd2NHMHhQU0l4T0NJZ2NIQnRNajBpTV
+      RnaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsYUNJZ2NHOXBiblF4UFNKemF
+      EQXhJaUJ3YjJsdWRESTlJbk5vTURNaUlITjBaVzA5SW1WeElGZzZJREU1T1NJdlBnb2dJ
+      Q0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1ZvSWlCd2IybHVkREU5SW5Ob01ESWlJSEJ2Y
+      Vc1ME1qMGljbk5pSWlCeWIzVnVaRDBpZEhKMVpTSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbF
+      BTSmhiR2xuYm5RaUlIQnZhVzUwUFNKaGREQXhJaUI2YjI1bFBTSjBPaUI0SWk4K0NpQWd
+      JQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVZaUlnY0c5cGJuUTlJbTFvTURFaUlIcHZibVU5
+      SW1JNklEQWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5RO
+      UltMTJNREVpSUdSbGJIUmhQU0l6SWlCd2NHMHhQU0l4T0NJZ2NIQnRNajBpTVRnaUx6NE
+      tJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKaGREQXhJaUJ
+      3YjJsdWRESTlJbk4yTURFaUlITjBaVzA5SW1WeElGazZJREUyTWlJdlBnb2dJQ0FnUEhS
+      MFl5QmpiMlJsUFNKemFXNW5iR1YySWlCd2IybHVkREU5SW0xb01ERWlJSEJ2YVc1ME1qM
+      GljM1l3TWlJZ2MzUmxiVDBpWlhFZ1dUb2dNVFV6SWk4K0NpQWdQQzkwZEZCeWIyZHlZVz
+      ArQ2c9PQ==
       </data>
     </dict>
   </lib>

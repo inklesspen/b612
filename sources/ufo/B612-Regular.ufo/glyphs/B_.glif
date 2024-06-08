@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="B" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="B" format="2">
   <advance width="1300"/>
   <unicode hex="0042"/>
   <outline>
@@ -38,14 +38,14 @@
       <point x="1041" y="1272"/>
       <point x="1041" y="1169" type="qcurve" name="dh04"/>
       <point x="1041" y="1060"/>
-      <point x="936" y="902"/>
+      <point x="936" y="902" name="hr01"/>
       <point x="850" y="860" type="qcurve"/>
       <point x="696" y="816" type="line" name="ih01"/>
       <point x="843" y="802" type="line"/>
       <point x="904" y="784"/>
       <point x="1013" y="727"/>
       <point x="1095" y="645"/>
-      <point x="1142" y="533"/>
+      <point x="1142" y="533" name="hr00"/>
       <point x="1142" y="460" type="qcurve" name="sh03"/>
       <point x="1142" y="375"/>
       <point x="1096" y="241"/>
@@ -61,7 +61,7 @@
       <point x="639" y="160"/>
       <point x="789" y="189"/>
       <point x="891" y="256"/>
-      <point x="942" y="367"/>
+      <point x="942" y="367" name="hr02"/>
       <point x="942" y="450" type="qcurve" name="sh02"/>
       <point x="942" y="525"/>
       <point x="890" y="631"/>
@@ -73,28 +73,87 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList/>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 730 155</string>
+              <string>hstem 1375 135</string>
+              <string>vstem 190 210</string>
+              <string>vstem 850 191</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 730 155</string>
+              <string>hstem 1375 135</string>
+              <string>vstem 190 210</string>
+              <string>vstem 942 200</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 730 155</string>
+              <string>hstem 1375 135</string>
+              <string>vstem 190 210</string>
+              <string>vstem 850 191</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 730 155</string>
+              <string>hstem 1375 135</string>
+              <string>vstem 190 210</string>
+              <string>vstem 942 99</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 208"/>
-          <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: 199"/>
-          <ttc code="singleh" point1="dh02" point2="sh01"/>
-          <ttc code="interpolateh" point="ih01" point1="ih02" point2="ih03"/>
-          <ttc code="singleh" point1="dh04" point2="sh02" stem="X: ecart du B"/>
-          <ttc code="singleh" point1="sh02" point2="sh03" stem="X: 208"/>
-          <ttc code="singleh" point1="dh01" point2="lsb" round="true"/>
-          <ttc code="singleh" point1="dh04" point2="rsb" round="true"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="dh01" zone="b: 0"/>
-          <ttc code="doublev" point1="ih03" point2="ih02" stem="Y: 153"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="Y: 144"/>
-          <ttc code="interpolatev" point="ih01" point1="ih03" point2="ih02"/>
-          <ttc code="singlev" point1="dh01" point2="dh02" stem="Y: 162"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKa2IzVmliR1ZvSWlCd
+      2IybHVkREU5SW1Sb01ERWlJSEJ2YVc1ME1qMGlaR2d3TWlJZ2MzUmxiVDBpV0RvZ01qQT
+      RJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbVJ2ZFdKc1pXZ2lJSEJ2YVc1ME1UMGlaR2d
+      3TXlJZ2NHOXBiblF5UFNKa2FEQTBJaUJ6ZEdWdFBTSllPaUF4T1RraUx6NEtJQ0FnSUR4
+      MGRHTWdZMjlrWlQwaWMybHVaMnhsYUNJZ2NHOXBiblF4UFNKa2FEQXlJaUJ3YjJsdWRES
+      TlJbk5vTURFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWFXNTBaWEp3YjJ4aGRHVm9JaU
+      J3YjJsdWREMGlhV2d3TVNJZ2NHOXBiblF4UFNKcGFEQXlJaUJ3YjJsdWRESTlJbWxvTUR
+      NaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsYUNJZ2NHOXBiblF4UFNKa2FE
+      QTBJaUJ3YjJsdWRESTlJbk5vTURJaUlITjBaVzA5SWxnNklHVmpZWEowSUdSMUlFSWlMe
+      jRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSnphREF5SW
+      lCd2IybHVkREk5SW5Ob01ETWlJSE4wWlcwOUlsZzZJREl3T0NJdlBnb2dJQ0FnUEhSMFl
+      5QmpiMlJsUFNKemFXNW5iR1ZvSWlCd2IybHVkREU5SW1Sb01ERWlJSEJ2YVc1ME1qMGli
+      SE5pSWlCeWIzVnVaRDBpZEhKMVpTSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuY
+      kdWb0lpQndiMmx1ZERFOUltUm9NRFFpSUhCdmFXNTBNajBpY25OaUlpQnliM1Z1WkQwaW
+      RISjFaU0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkdsbmJuUWlJSEJ2YVc1MFBTSmh
+      kREF4SWlCNmIyNWxQU0owT2lBeElpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltRnNhV2R1
+      WWlJZ2NHOXBiblE5SW1Sb01ERWlJSHB2Ym1VOUltSTZJREFpTHo0S0lDQWdJRHgwZEdNZ
+      1kyOWtaVDBpWkc5MVlteGxkaUlnY0c5cGJuUXhQU0pwYURBeklpQndiMmx1ZERJOUltbG
+      9NRElpSUhOMFpXMDlJbGs2SURFMU15SXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzV
+      uYkdWMklpQndiMmx1ZERFOUltRjBNREVpSUhCdmFXNTBNajBpYzNZd01TSWdjM1JsYlQw
+      aVdUb2dNVFEwSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdWRHVnljRzlzWVhSbGRpS
+      WdjRzlwYm5ROUltbG9NREVpSUhCdmFXNTBNVDBpYVdnd015SWdjRzlwYm5ReVBTSnBhRE
+      F5SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWkd
+      nd01TSWdjRzlwYm5ReVBTSmthREF5SWlCemRHVnRQU0paT2lBeE5qSWlMejRLSUNBOEwz
+      UjBVSEp2WjNKaGJUNEs=
       </data>
     </dict>
   </lib>

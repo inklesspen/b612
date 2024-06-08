@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quotedbl" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl" format="2">
   <advance width="1300"/>
   <unicode hex="0022"/>
   <outline>
@@ -42,35 +42,50 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="sh01">
-            <hstem pos="1067" width="433"/>
-            <vstem pos="150" width="175"/>
-            <vstem pos="451" width="175"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1067 433</string>
+              <string>vstem 150 175</string>
+              <string>vstem 451 175</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 176"/>
-          <ttc code="mdeltah" delta="-8" point="sh01" ppm1="26" ppm2="26"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="26" ppm2="26"/>
-          <ttc code="mdeltah" delta="4" point="mh02" ppm1="26" ppm2="26"/>
-          <ttc code="mdeltah" delta="6" point="ah02" ppm1="26" ppm2="26"/>
-          <ttc code="singleh" point1="ah02" point2="sh02" stem="X: 176"/>
-          <ttc code="mdeltah" delta="-3" point="sh02" ppm1="26" ppm2="26"/>
-          <ttc code="mdeltah" delta="-2" point="mh03" ppm1="26" ppm2="26"/>
-          <ttc code="mdeltah" delta="2" point="mh04" ppm1="26" ppm2="26"/>
-          <ttc code="alignt" point="sh01" zone="t: 1"/>
-          <ttc code="alignt" point="sh02" zone="t: 1"/>
-          <ttc code="singlev" point1="sh01" point2="sv01" round="true"/>
-          <ttc code="singlev" point1="sh02" point2="sv02" round="true"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TVNJ
+      Z2NHOXBiblF5UFNKemFEQXhJaUJ6ZEdWdFBTSllPaUF4TnpZaUx6NEtJQ0FnSUR4MGRHT
+      WdZMjlrWlQwaWJXUmxiSFJoYUNJZ2NHOXBiblE5SW5Ob01ERWlJR1JsYkhSaFBTSXRPQ0
+      lnY0hCdE1UMGlNallpSUhCd2JUSTlJakkySWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0
+      xa1pXeDBZV2dpSUhCdmFXNTBQU0p0YURBeElpQmtaV3gwWVQwaUxUSWlJSEJ3YlRFOUlq
+      STJJaUJ3Y0cweVBTSXlOaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9Ja
+      UJ3YjJsdWREMGliV2d3TWlJZ1pHVnNkR0U5SWpRaUlIQndiVEU5SWpJMklpQndjRzB5UF
+      NJeU5pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaVl
+      XZ3dNaUlnWkdWc2RHRTlJallpSUhCd2JURTlJakkySWlCd2NHMHlQU0l5TmlJdlBnb2dJ
+      Q0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1ZvSWlCd2IybHVkREU5SW1Gb01ESWlJSEJ2Y
+      Vc1ME1qMGljMmd3TWlJZ2MzUmxiVDBpV0RvZ01UYzJJaTgrQ2lBZ0lDQThkSFJqSUdOdl
+      pHVTlJbTFrWld4MFlXZ2lJSEJ2YVc1MFBTSnphREF5SWlCa1pXeDBZVDBpTFRNaUlIQnd
+      iVEU5SWpJMklpQndjRzB5UFNJeU5pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnRaR1Zz
+      ZEdGb0lpQndiMmx1ZEQwaWJXZ3dNeUlnWkdWc2RHRTlJaTB5SWlCd2NHMHhQU0l5TmlJZ
+      2NIQnRNajBpTWpZaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoYUNJZ2NHOX
+      BiblE5SW0xb01EUWlJR1JsYkhSaFBTSXlJaUJ3Y0cweFBTSXlOaUlnY0hCdE1qMGlNall
+      pTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGljMmd3TVNJ
+      Z2VtOXVaVDBpZERvZ01TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5RaUlIQ
+      nZhVzUwUFNKemFEQXlJaUI2YjI1bFBTSjBPaUF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1
+      U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzJnd01TSWdjRzlwYm5ReVBTSnpkakF4SWl
+      CeWIzVnVaRDBpZEhKMVpTSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklp
+      QndiMmx1ZERFOUluTm9NRElpSUhCdmFXNTBNajBpYzNZd01pSWdjbTkxYm1ROUluUnlkV
+      1VpTHo0S0lDQThMM1IwVUhKdlozSmhiVDRL
       </data>
     </dict>
   </lib>

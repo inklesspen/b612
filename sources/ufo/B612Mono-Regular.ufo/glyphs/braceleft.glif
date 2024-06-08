@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="braceleft" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="braceleft" format="2">
   <advance width="1300"/>
   <unicode hex="007B"/>
+  <guideline x="0" y="550" angle="0"/>
+  <guideline x="0" y="475" angle="0"/>
   <outline>
     <contour>
       <point x="228" y="625" type="line" name="iv01"/>
@@ -73,61 +75,45 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="iv01">
-            <hstem pos="-399" width="-21"/>
-            <hstem pos="475" width="150"/>
-            <hstem pos="1519" width="-20"/>
-            <vstem pos="500" width="200"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>iv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -399 -21</string>
+              <string>hstem 475 150</string>
+              <string>hstem 1519 -20</string>
+              <string>vstem 500 200</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc align="round" code="alignh" point="ah03"/>
-          <ttc align="round" code="alignh" point="ah04"/>
-          <ttc align="round" code="alignh" point="ah05"/>
-          <ttc align="round" code="alignh" point="ah06"/>
-          <ttc code="singleh" point1="ah03" point2="sh01" stem="X: dia Lite"/>
-          <ttc code="singleh" point1="ah04" point2="sh02" stem="X: dia Lite"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="interpolatev" point="iv01" point1="ah03" point2="sh02"/>
-          <ttc code="interpolatev" point="ah02" point1="ah04" point2="sh01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWFDSWdjRzlwYm5ROUltRm9NRE1pSUdG
+      c2FXZHVQU0p5YjNWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1naUlIQ
+      nZhVzUwUFNKaGFEQTBJaUJoYkdsbmJqMGljbTkxYm1RaUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaVlXeHBaMjVvSWlCd2IybHVkRDBpWVdnd05TSWdZV3hwWjI0OUluSnZkVzVrSWk
+      4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVhQ0lnY0c5cGJuUTlJbUZvTURZaUlH
+      RnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVm9Ja
+      UJ3YjJsdWRERTlJbUZvTURNaUlIQnZhVzUwTWowaWMyZ3dNU0lnYzNSbGJUMGlXRG9nWk
+      dsaElFeHBkR1VpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYzJsdVoyeGxhQ0lnY0c5cGJ
+      uUXhQU0poYURBMElpQndiMmx1ZERJOUluTm9NRElpSUhOMFpXMDlJbGc2SUdScFlTQk1h
+      WFJsSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVkaUlnY0c5cGJuUTlJbUYyT
+      URFaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkdsbm
+      JuUWlJSEJ2YVc1MFBTSmhkREF4SWlCNmIyNWxQU0owT2lBeElpOCtDaUFnSUNBOGRIUmp
+      JR052WkdVOUltbHVkR1Z5Y0c5c1lYUmxkaUlnY0c5cGJuUTlJbWwyTURFaUlIQnZhVzUw
+      TVQwaVlXZ3dNeUlnY0c5cGJuUXlQU0p6YURBeUlpOCtDaUFnSUNBOGRIUmpJR052WkdVO
+      UltbHVkR1Z5Y0c5c1lYUmxkaUlnY0c5cGJuUTlJbUZvTURJaUlIQnZhVzUwTVQwaVlXZ3
+      dOQ0lnY0c5cGJuUXlQU0p6YURBeElpOCtDaUFnUEM5MGRGQnliMmR5WVcwK0NnPT0=
       </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>550</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>475</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

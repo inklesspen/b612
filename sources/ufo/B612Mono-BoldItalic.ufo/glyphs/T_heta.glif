@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Theta" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta" format="2">
   <advance width="1200"/>
   <unicode hex="0398"/>
   <outline>
     <contour>
-      <point x="490" y="900" type="line"/>
+      <point x="490" y="900" type="line" name="hr00"/>
       <point x="830" y="900" type="line"/>
       <point x="769" y="662" type="line"/>
       <point x="429" y="662" type="line"/>
@@ -68,17 +68,31 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-16" width="237"/>
-            <hstem pos="1279" width="237"/>
-            <vstem pos="57" width="349"/>
-            <vstem pos="1143" width="349"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 675 150</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -16 237</string>
+              <string>hstem 1279 237</string>
+              <string>vstem 57 349</string>
+              <string>vstem 1143 349</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

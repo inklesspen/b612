@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Omicron" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicron" format="2">
   <advance width="1300"/>
   <unicode hex="039F"/>
   <outline>
@@ -62,29 +62,39 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="ab01">
-            <hstem pos="-17" width="243"/>
-            <hstem pos="1274" width="243"/>
-            <vstem pos="224" width="350"/>
-            <vstem pos="1071" width="350"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 243</string>
+              <string>hstem 1274 243</string>
+              <string>vstem 224 350</string>
+              <string>vstem 1071 350</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc code="singleh" point1="ah02" point2="sh01" stem="eq X: 208"/>
-          <ttc code="singleh" point1="ah01" point2="sh02" stem="eq X: 208"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="ab01" point2="sv02" stem="eq Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TWlJ
+      Z2NHOXBiblF5UFNKemFEQXhJaUJ6ZEdWdFBTSmxjU0JZT2lBeU1EZ2lMejRLSUNBZ0lEe
+      DBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSmhhREF4SWlCd2IybHVkRE
+      k5SW5Ob01ESWlJSE4wWlcwOUltVnhJRmc2SURJd09DSXZQZ29nSUNBZ1BIUjBZeUJqYjJ
+      SbFBTSmhiR2xuYm5RaUlIQnZhVzUwUFNKaGREQXhJaUI2YjI1bFBTSjBPaUF4SWk4K0Np
+      QWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVZaUlnY0c5cGJuUTlJbUZpTURFaUlIcHZib
+      VU5SW1JNklEQWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm
+      5ReFBTSmhkREF4SWlCd2IybHVkREk5SW5OMk1ERWlJSE4wWlcwOUltVnhJRms2SURFM01
+      TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltRmlN
+      REVpSUhCdmFXNTBNajBpYzNZd01pSWdjM1JsYlQwaVpYRWdXVG9nTVRjeElpOCtDaUFnU
+      EM5MGRGQnliMmR5WVcwK0NnPT0=
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Tau" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tau" format="2">
   <advance width="1300"/>
   <unicode hex="03A4"/>
   <outline>
@@ -16,26 +16,34 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="dh01">
-            <hstem pos="21" width="-21"/>
-            <hstem pos="1272" width="228"/>
-            <vstem pos="469" width="333"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1272 228</string>
+              <string>vstem 469 333</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="dh01" zone="b: 0"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 162"/>
-          <ttc code="singlev" point1="sv01" point2="sv02"/>
-          <ttc code="singlev" point1="sv02" point2="sv03"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKa2IzVmliR1ZvSWlCd
+      2IybHVkREU5SW1Sb01ERWlJSEJ2YVc1ME1qMGlaR2d3TWlJZ2MzUmxiVDBpWlhFZ1dEb2
+      dNakE0SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVkQ0lnY0c5cGJuUTlJbUY
+      wTURFaUlIcHZibVU5SW5RNklERWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGlZV3hwWjI1
+      aUlpQndiMmx1ZEQwaVpHZ3dNU0lnZW05dVpUMGlZam9nTUNJdlBnb2dJQ0FnUEhSMFl5Q
+      mpiMlJsUFNKemFXNW5iR1YySWlCd2IybHVkREU5SW1GME1ERWlJSEJ2YVc1ME1qMGljM1
+      l3TVNJZ2MzUmxiVDBpWlhFZ1dUb2dNVFl5SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5
+      OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzNZd01TSWdjRzlwYm5ReVBTSnpkakF5SWk4K0Np
+      QWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzNZd01pSWdjR
+      zlwYm5ReVBTSnpkakF6SWk4K0NpQWdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zeta" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zeta" format="2">
   <advance width="1300"/>
   <unicode hex="0396"/>
   <outline>
@@ -22,25 +22,34 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="iv03">
-            <hstem pos="0" width="228"/>
-            <hstem pos="1272" width="228"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>iv03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 228</string>
+              <string>hstem 1272 228</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="interpolatev" point="iv01" point1="iv02" point2="iv03"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 171"/>
-          <ttc code="interpolatev" point="iv04" point1="iv05" point2="iv06"/>
-          <ttc code="singlev" point1="ab01" point2="sv02" stem="eq Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaWFXNTBaWEp3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TVNJ
+      Z2NHOXBiblF4UFNKcGRqQXlJaUJ3YjJsdWRESTlJbWwyTURNaUx6NEtJQ0FnSUR4MGRHT
+      WdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKaGREQXhJaUJ3YjJsdWRESTlJbk
+      4yTURFaUlITjBaVzA5SW1WeElGazZJREUzTVNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFN
+      KcGJuUmxjbkJ2YkdGMFpYWWlJSEJ2YVc1MFBTSnBkakEwSWlCd2IybHVkREU5SW1sMk1E
+      VWlJSEJ2YVc1ME1qMGlhWFl3TmlJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR
+      1YySWlCd2IybHVkREU5SW1GaU1ERWlJSEJ2YVc1ME1qMGljM1l3TWlJZ2MzUmxiVDBpWl
+      hFZ1dUb2dNVGN4SWk4K0NpQWdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
     </dict>
   </lib>

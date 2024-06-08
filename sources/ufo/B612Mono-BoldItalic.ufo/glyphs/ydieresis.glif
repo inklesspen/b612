@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ydieresis" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ydieresis" format="2">
   <advance width="1300"/>
   <unicode hex="00FF"/>
   <outline>
@@ -43,35 +43,330 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="-480" width="152"/>
-            <hstem pos="1117" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -480 152</string>
+              <string>hstem 1117 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: x"/>
-          <ttc code="alignt" point="at02" zone="t: x"/>
-          <ttc code="alignt" point="at03" zone="t: x"/>
-          <ttc code="singlev" point1="at01" point2="sv01"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="15" ppm2="15"/>
-          <ttc code="mdeltah" delta="1" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="8" point="mh03" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="6" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc align="round" code="alignv" point="av03"/>
-          <ttc code="singlev" point1="av02" point2="mh01"/>
-          <ttc code="singlev" point1="mh01" point2="sv02" stem="Y: 171"/>
-          <ttc code="singlev" point1="av03" point2="mh02"/>
-          <ttc code="singlev" point1="mh02" point2="sv03" stem="Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ2VDSXZQZ29
+      nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5RaUlIQnZhVzUwUFNKaGREQXlJaUI2YjI1
+      bFBTSjBPaUI0SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVkQ0lnY0c5cGJuU
+      TlJbUYwTURNaUlIcHZibVU5SW5RNklIZ2lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMm
+      x1WjJ4bGRpSWdjRzlwYm5ReFBTSmhkREF4SWlCd2IybHVkREk5SW5OMk1ERWlMejRLSUN
+      BZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUltMW9NREVpSUdSbGJI
+      UmhQU0l0TWlJZ2NIQnRNVDBpTVRVaUlIQndiVEk5SWpFMUlpOCtDaUFnSUNBOGRIUmpJR
+      052WkdVOUltMWtaV3gwWVdnaUlIQnZhVzUwUFNKdGFEQXlJaUJrWld4MFlUMGlNU0lnY0
+      hCdE1UMGlNVE1pSUhCd2JUSTlJakV6SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1p
+      XeDBZV2dpSUhCdmFXNTBQU0p0YURBeklpQmtaV3gwWVQwaU9DSWdjSEJ0TVQwaU1UTWlJ
+      SEJ3YlRJOUlqRXpJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJSEJ2Y
+      Vc1MFBTSnRhREF6SWlCa1pXeDBZVDBpTmlJZ2NIQnRNVDBpTVRJaUlIQndiVEk5SWpFeU
+      lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltRnNhV2R1ZGlJZ2NHOXBiblE5SW1GMk1ESWl
+      JR0ZzYVdkdVBTSnliM1Z1WkNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllp
+      SUhCdmFXNTBQU0poZGpBeklpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ
+      1kyOWtaVDBpYzJsdVoyeGxkaUlnY0c5cGJuUXhQU0poZGpBeUlpQndiMmx1ZERJOUltMW
+      9NREVpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYzJsdVoyeGxkaUlnY0c5cGJuUXhQU0p
+      0YURBeElpQndiMmx1ZERJOUluTjJNRElpSUhOMFpXMDlJbGs2SURFM01TSXZQZ29nSUNB
+      Z1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltRjJNRE1pSUhCdmFXN
+      TBNajBpYldnd01pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMm
+      x1ZERFOUltMW9NRElpSUhCdmFXNTBNajBpYzNZd015SWdjM1JsYlQwaVdUb2dNVGN4SWk
+      4K0NpQWdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
+      <key>com.fontlab.v5.background</key>
+      <dict>
+        <key>data</key>
+        <dict>
+          <key>bytes</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>8</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>102</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>102</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>60</integer>
+            <integer>255</integer>
+            <integer>3</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>131</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>131</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>134</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>198</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>198</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>108</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>108</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>120</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>56</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>48</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>48</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>96</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>3</integer>
+            <integer>224</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>3</integer>
+            <integer>192</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>num_bytes</key>
+          <integer>254</integer>
+        </dict>
+        <key>len</key>
+        <integer>96</integer>
+        <key>origin</key>
+        <array>
+          <integer>-333</integer>
+          <integer>-416</integer>
+        </array>
+        <key>size_pixels</key>
+        <array>
+          <integer>24</integer>
+          <integer>24</integer>
+        </array>
+        <key>size_units</key>
+        <array>
+          <integer>1666</integer>
+          <integer>1583</integer>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

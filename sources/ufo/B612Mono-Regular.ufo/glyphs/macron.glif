@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="macron" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macron" format="2">
   <advance width="1300"/>
   <unicode hex="00AF"/>
   <outline>
@@ -14,11 +14,12 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="Y: 153"/>
-          <ttc code="singlev" point1="sv01" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbk5wYm1kc1pYWWlJSEJ2YVc1ME1UMGlZWFF3TVNJZ2NHOXBiblF5UFNKemRqQXhJaUJ
+      6ZEdWdFBTSlpPaUF4TlRNaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJ
+      Z2NHOXBiblF4UFNKemRqQXhJaUJ3YjJsdWRESTlJbk4yTURJaUx6NEtJQ0E4TDNSMFVIS
+      nZaM0poYlQ0Sw==
       </data>
     </dict>
   </lib>

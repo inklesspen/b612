@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="perpendicular" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="perpendicular" format="2">
   <advance width="1300"/>
   <unicode hex="22A5"/>
   <outline>
@@ -18,14 +18,16 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="dh02" stem="eq Y: 153"/>
-          <ttc code="singlev" point1="dh02" point2="sv01"/>
-          <ttc code="singlev" point1="sv01" point2="dh01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKa2IzVmliR1ZvSWlCd
+      2IybHVkREU5SW1Sb01ERWlJSEJ2YVc1ME1qMGlaR2d3TWlJZ2MzUmxiVDBpWlhFZ1dEb2
+      dNakE0SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVkaUlnY0c5cGJuUTlJbUY
+      yTURFaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkds
+      bmJtSWlJSEJ2YVc1MFBTSmhZakF4SWlCNmIyNWxQU0ppT2lBd0lpOCtDaUFnSUNBOGRIU
+      mpJR052WkdVOUluTnBibWRzWlhZaUlIQnZhVzUwTVQwaVlXSXdNU0lnY0c5cGJuUXlQU0
+      prYURBeUlpQnpkR1Z0UFNKbGNTQlpPaUF4TlRNaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQ
+      waWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKa2FEQXlJaUJ3YjJsdWRESTlJbk4yTURFaUx6
+      NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKemRqQXhJa
+      UJ3YjJsdWRESTlJbVJvTURFaUx6NEtJQ0E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
     </dict>
   </lib>

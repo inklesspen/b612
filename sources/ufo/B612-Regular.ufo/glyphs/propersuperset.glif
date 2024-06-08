@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="propersuperset" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="propersuperset" format="2">
   <advance width="1500"/>
   <unicode hex="2283"/>
   <outline>
@@ -35,16 +35,22 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="0" width="154"/>
-            <hstem pos="1147" width="153"/>
-            <vstem pos="1220" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 154</string>
+              <string>hstem 1147 153</string>
+              <string>vstem 1220 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

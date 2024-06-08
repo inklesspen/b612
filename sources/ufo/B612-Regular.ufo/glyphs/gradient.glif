@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gradient" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gradient" format="2">
   <advance width="1600"/>
   <unicode hex="2207"/>
   <outline>
@@ -23,24 +23,32 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="at01">
-            <hstem pos="21" width="-21"/>
-            <hstem pos="1500" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 1500 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="interpolatev" point="iv01" point1="ab01" point2="at01"/>
-          <ttc code="interpolatev" point="iv02" point1="ab01" point2="at01"/>
-          <ttc code="interpolatev" point="iv03" point1="ab01" point2="at01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaWFXNTBaWEp3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TVNJ
+      Z2NHOXBiblF4UFNKaFlqQXhJaUJ3YjJsdWRESTlJbUYwTURFaUx6NEtJQ0FnSUR4MGRHT
+      WdZMjlrWlQwaWFXNTBaWEp3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TWlJZ2NHOXBibl
+      F4UFNKaFlqQXhJaUJ3YjJsdWRESTlJbUYwTURFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQ
+      waWFXNTBaWEp3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TXlJZ2NHOXBiblF4UFNKaFlq
+      QXhJaUJ3YjJsdWRESTlJbUYwTURFaUx6NEtJQ0E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
     </dict>
   </lib>

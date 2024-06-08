@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Phi" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Phi" format="2">
   <advance width="1300"/>
   <unicode hex="03A6"/>
+  <guideline x="1437" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="451" y="204" type="line"/>
@@ -71,31 +72,18 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="av01" point2="sv01"/>
-          <ttc code="singlev" point1="sv01" point2="sv02"/>
-          <ttc code="singlev" point1="sv02" point2="sv03"/>
-          <ttc code="singlev" point1="ab01" point2="sv04"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ01TSXZQZ29
+      nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1JaUlIQnZhVzUwUFNKaFlqQXhJaUI2YjI1
+      bFBTSmlPaUF3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXN
+      TBNVDBpWVhZd01TSWdjRzlwYm5ReVBTSnpkakF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1
+      U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzNZd01TSWdjRzlwYm5ReVBTSnpkakF5SWk
+      4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzNZd01p
+      SWdjRzlwYm5ReVBTSnpkakF6SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaW
+      FlpSUhCdmFXNTBNVDBpWVdJd01TSWdjRzlwYm5ReVBTSnpkakEwSWk4K0NpQWdQQzkwZE
+      ZCeWIyZHlZVzArQ2c9PQ==
       </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>90</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>1437</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

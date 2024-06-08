@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="centigrade" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="centigrade" format="2">
   <advance width="2600"/>
   <unicode hex="2103"/>
   <outline>
@@ -94,42 +94,82 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList/>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 250</string>
+              <string>hstem 1270 247</string>
+              <string>vstem 690 350</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>at02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 977 168</string>
+              <string>hstem 1349 168</string>
+              <string>vstem 104 184</string>
+              <string>vstem 512 184</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="2" point="dh01" ppm1="7" ppm2="7"/>
-          <ttc code="mdeltah" delta="6" point="mh02" ppm1="7" ppm2="7"/>
-          <ttc code="mdeltah" delta="2" point="ah01" ppm1="6" ppm2="6"/>
-          <ttc code="mdeltah" delta="3" point="dh02" ppm1="17" ppm2="17"/>
-          <ttc code="mdeltah" delta="3" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="mdeltav" delta="2" point="mv01" ppm1="6" ppm2="6"/>
-          <ttc code="mdeltav" delta="3" point="mv02" ppm1="30" ppm2="30"/>
-          <ttc code="mdeltav" delta="2" point="mv02" ppm1="28" ppm2="28"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 171"/>
-          <ttc code="mdeltav" delta="-5" point="sv01" ppm1="12" ppm2="12"/>
-          <ttc code="mdeltav" delta="4" point="mv03" ppm1="6" ppm2="6"/>
-          <ttc code="mdeltav" delta="3" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc code="singlev" point1="ab01" point2="sv02" stem="eq Y: 171"/>
-          <ttc code="mdeltav" delta="5" point="sv02" ppm1="12" ppm2="12"/>
-          <ttc align="round" code="alignh" point="ah03"/>
-          <ttc align="round" code="alignh" point="ah04"/>
-          <ttc code="singleh" point1="ah04" point2="sh01" round="true"/>
-          <ttc code="singleh" point1="ah03" point2="sh02" round="true"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at02" zone="t: 1"/>
-          <ttc code="singlev" point1="av01" point2="sv03" round="true"/>
-          <ttc code="singlev" point1="at02" point2="sv04" round="true"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbVJ2ZFdKc1pXZ2lJSEJ2YVc1ME1UMGlaR2d3TVNJ
+      Z2NHOXBiblF5UFNKa2FEQXlJaUJ6ZEdWdFBTSmxjU0JZT2lBeU1EZ2lMejRLSUNBZ0lEe
+      DBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUltMW9NREVpSUdSbGJIUmhQU0
+      l0TWlJZ2NIQnRNVDBpTVRNaUlIQndiVEk5SWpFeklpOCtDaUFnSUNBOGRIUmpJR052Wkd
+      VOUltMWtaV3gwWVdnaUlIQnZhVzUwUFNKa2FEQXhJaUJrWld4MFlUMGlNaUlnY0hCdE1U
+      MGlOeUlnY0hCdE1qMGlOeUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9Ja
+      UJ3YjJsdWREMGliV2d3TWlJZ1pHVnNkR0U5SWpZaUlIQndiVEU5SWpjaUlIQndiVEk5SW
+      pjaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoYUNJZ2NHOXBiblE5SW1Gb01
+      ERWlJR1JsYkhSaFBTSXlJaUJ3Y0cweFBTSTJJaUJ3Y0cweVBTSTJJaTgrQ2lBZ0lDQThk
+      SFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJSEJ2YVc1MFBTSmthREF5SWlCa1pXeDBZVDBpT
+      XlJZ2NIQnRNVDBpTVRjaUlIQndiVEk5SWpFM0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOU
+      ltMWtaV3gwWVdnaUlIQnZhVzUwUFNKdGFEQXpJaUJrWld4MFlUMGlNeUlnY0hCdE1UMGl
+      NVElpSUhCd2JUSTlJakV5SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVkQ0ln
+      Y0c5cGJuUTlJbUYwTURFaUlIcHZibVU5SW5RNklERWlMejRLSUNBZ0lEeDBkR01nWTI5a
+      1pUMGlZV3hwWjI1aUlpQndiMmx1ZEQwaVlXSXdNU0lnZW05dVpUMGlZam9nTUNJdlBnb2
+      dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0YySWlCd2IybHVkRDBpYlhZd01TSWdaR1Z
+      zZEdFOUlqSWlJSEJ3YlRFOUlqWWlJSEJ3YlRJOUlqWWlMejRLSUNBZ0lEeDBkR01nWTI5
+      a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUltMTJNRElpSUdSbGJIUmhQU0l6SWlCd2NHM
+      HhQU0l6TUNJZ2NIQnRNajBpTXpBaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiSF
+      JoZGlJZ2NHOXBiblE5SW0xMk1ESWlJR1JsYkhSaFBTSXlJaUJ3Y0cweFBTSXlPQ0lnY0h
+      CdE1qMGlNamdpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYzJsdVoyeGxkaUlnY0c5cGJu
+      UXhQU0poZERBeElpQndiMmx1ZERJOUluTjJNREVpSUhOMFpXMDlJbVZ4SUZrNklERTNNU
+      0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRjJJaUJ3YjJsdWREMGljM1l3TV
+      NJZ1pHVnNkR0U5SWkwMUlpQndjRzB4UFNJeE1pSWdjSEJ0TWowaU1USWlMejRLSUNBZ0l
+      EeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUltMTJNRE1pSUdSbGJIUmhQ
+      U0kwSWlCd2NHMHhQU0kySWlCd2NHMHlQU0kySWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5S
+      W0xa1pXeDBZWFlpSUhCdmFXNTBQU0p0YURBeklpQmtaV3gwWVQwaU15SWdjSEJ0TVQwaU
+      1USWlJSEJ3YlRJOUlqRXlJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYWWl
+      JSEJ2YVc1ME1UMGlZV0l3TVNJZ2NHOXBiblF5UFNKemRqQXlJaUJ6ZEdWdFBTSmxjU0Ja
+      T2lBeE56RWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5RO
+      UluTjJNRElpSUdSbGJIUmhQU0kxSWlCd2NHMHhQU0l4TWlJZ2NIQnRNajBpTVRJaUx6NE
+      tJQ0FnSUR4MGRHTWdZMjlrWlQwaVlXeHBaMjVvSWlCd2IybHVkRDBpWVdnd015SWdZV3h
+      wWjI0OUluSnZkVzVrSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVhQ0lnY0c5
+      cGJuUTlJbUZvTURRaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyU
+      mxQU0p6YVc1bmJHVm9JaUJ3YjJsdWRERTlJbUZvTURRaUlIQnZhVzUwTWowaWMyZ3dNU0
+      lnY205MWJtUTlJblJ5ZFdVaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsYUN
+      JZ2NHOXBiblF4UFNKaGFEQXpJaUJ3YjJsdWRESTlJbk5vTURJaUlISnZkVzVrUFNKMGNu
+      VmxJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWRpSWdjRzlwYm5ROUltRjJNR
+      EVpSUdGc2FXZHVQU0p5YjNWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm
+      5RaUlIQnZhVzUwUFNKaGREQXlJaUI2YjI1bFBTSjBPaUF4SWk4K0NpQWdJQ0E4ZEhSakl
+      HTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVhZd01TSWdjRzlwYm5ReVBTSnpk
+      akF6SWlCeWIzVnVaRDBpZEhKMVpTSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuY
+      kdWMklpQndiMmx1ZERFOUltRjBNRElpSUhCdmFXNTBNajBpYzNZd05DSWdjbTkxYm1ROU
+      luUnlkV1VpTHo0S0lDQThMM1IwVUhKdlozSmhiVDRL
       </data>
     </dict>
   </lib>

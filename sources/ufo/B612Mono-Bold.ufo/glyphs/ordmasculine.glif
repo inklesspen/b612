@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ordmasculine" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordmasculine" format="2">
   <advance width="1300"/>
   <unicode hex="00BA"/>
   <outline>
     <contour>
-      <point x="179" y="810" type="line"/>
+      <point x="179" y="810" type="line" name="hr00"/>
       <point x="621" y="810" type="line"/>
       <point x="621" y="690" type="line"/>
       <point x="179" y="690" type="line"/>
@@ -56,17 +56,31 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="950" width="110"/>
-            <hstem pos="1407" width="112"/>
-            <vstem pos="129" width="164"/>
-            <vstem pos="508" width="163"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 690 120</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 950 110</string>
+              <string>hstem 1407 112</string>
+              <string>vstem 129 164</string>
+              <string>vstem 508 163</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

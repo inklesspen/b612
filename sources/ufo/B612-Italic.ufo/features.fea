@@ -1,28 +1,29 @@
+@public.kern2._A1 = [A Agrave Aacute Acircumflex Atilde Adieresis Aring AE];
+@public.kern1._A = [A Agrave Aacute Acircumflex Atilde Adieresis Aring];
+@public.kern1._B = [B germandbls];
+@public.kern1._C = [C Ccedilla];
+@public.kern2._O1 = [O Ograve Oacute Ocircumflex Otilde Odieresis Oslash OE];
+@public.kern1._O = [O Ograve Oacute Ocircumflex Otilde Odieresis Oslash];
+@public.kern1._U = [U Ugrave Uacute Ucircumflex Udieresis];
+@public.kern2._U = [U Ugrave Uacute Ucircumflex Udieresis];
+@public.kern1._Y = [Y Yacute Ydieresis];
+@public.kern2._Y = [Y Yacute Ydieresis];
+@public.kern1._a = [a agrave aacute acircumflex atilde adieresis aring];
+@public.kern2._a = [a agrave aacute acircumflex atilde adieresis aring];
+@public.kern1._c = [c ccedilla];
+@public.kern2._c = [c ccedilla];
+@public.kern2._i = [i igrave iacute icircumflex idieresis];
+@public.kern1._n = [n ntilde];
+@public.kern2._n = [n ntilde];
+@public.kern1._u = [u ugrave uacute ucircumflex udieresis];
+@public.kern2._u = [u ugrave uacute ucircumflex udieresis];
+@public.kern1._y = [y yacute ydieresis];
+@public.kern2._y = [y yacute ydieresis];
+
+
 languagesystem DFLT dflt;
 languagesystem grek dflt;
 languagesystem latn dflt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 feature kern { # Kerning
@@ -706,66 +707,43 @@ lookup kern0 {
     pos z Yacute -100;
     pos z OE -100;
     pos z Ydieresis -100;
-    pos @_A @_U -100;
-    pos @_A @_Y -100;
-    pos @_B @_O1 -100;
-    pos @_B [S Scaron] -100;
-    pos @_B @_Y -100;
-    pos @_B @_i -100;
-    pos @_B @_u -100;
-    pos @_B @_y -100;
-    pos @_C @_O1 -100;
-    pos @_C @_u -100;
-    pos [E AE Egrave Eacute Ecircumflex Edieresis OE] @_O1 -100;
-    pos @_O @_Y -100;
-    pos @_O @_i -50;
-    pos @_U @_A1 -100;
-    pos @_Y @_A1 -100;
-    pos @_Y @_O1 -100;
-    pos @_Y @_a -100;
-    pos @_Y @_c -100;
-    pos @_Y [e egrave eacute ecircumflex edieresis] -150;
-    pos @_Y @_i -100;
-    pos @_Y @_n -100;
-    pos @_Y [o ograve oacute ocircumflex otilde odieresis oslash oe] -100;
-    pos @_Y @_u -100;
-    pos @_Y @_y -100;
-    pos @_a @_Y -100;
-    pos @_c @_Y -100;
-    pos [e ae egrave eacute ecircumflex edieresis oe] @_Y -200;
-    pos @_n @_Y -200;
-    pos @_n @_i -100;
-    pos @_n @_u -100;
-    pos [o ograve oacute ocircumflex otilde odieresis oslash] @_Y -100;
-    pos [s scaron] @_Y -100;
-    pos @_u @_Y -100;
-    pos @_y @_Y -100;
+    pos @public.kern1._A @public.kern2._U -100;
+    pos @public.kern1._A @public.kern2._Y -100;
+    pos @public.kern1._B @public.kern2._O1 -100;
+    pos @public.kern1._B [S Scaron] -100;
+    pos @public.kern1._B @public.kern2._Y -100;
+    pos @public.kern1._B @public.kern2._i -100;
+    pos @public.kern1._B @public.kern2._u -100;
+    pos @public.kern1._B @public.kern2._y -100;
+    pos @public.kern1._C @public.kern2._O1 -100;
+    pos @public.kern1._C @public.kern2._u -100;
+    pos [E AE Egrave Eacute Ecircumflex Edieresis OE] @public.kern2._O1 -100;
+    pos @public.kern1._O @public.kern2._Y -100;
+    pos @public.kern1._O @public.kern2._i -50;
+    pos @public.kern1._U @public.kern2._A1 -100;
+    pos @public.kern1._Y @public.kern2._A1 -100;
+    pos @public.kern1._Y @public.kern2._O1 -100;
+    pos @public.kern1._Y @public.kern2._a -100;
+    pos @public.kern1._Y @public.kern2._c -100;
+    pos @public.kern1._Y [e egrave eacute ecircumflex edieresis] -150;
+    pos @public.kern1._Y @public.kern2._i -100;
+    pos @public.kern1._Y @public.kern2._n -100;
+    pos @public.kern1._Y [o ograve oacute ocircumflex otilde odieresis oslash oe] -100;
+    pos @public.kern1._Y @public.kern2._u -100;
+    pos @public.kern1._Y @public.kern2._y -100;
+    pos @public.kern1._a @public.kern2._Y -100;
+    pos @public.kern1._c @public.kern2._Y -100;
+    pos [e ae egrave eacute ecircumflex edieresis oe] @public.kern2._Y -200;
+    pos @public.kern1._n @public.kern2._Y -200;
+    pos @public.kern1._n @public.kern2._i -100;
+    pos @public.kern1._n @public.kern2._u -100;
+    pos [o ograve oacute ocircumflex otilde odieresis oslash] @public.kern2._Y -100;
+    pos [s scaron] @public.kern2._Y -100;
+    pos @public.kern1._u @public.kern2._Y -100;
+    pos @public.kern1._y @public.kern2._Y -100;
 } kern0;
  script grek; # Greek
 lookup kern0;
  script latn; # Latin
 lookup kern0;
 } kern;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Euro" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro" format="2">
   <advance width="1300"/>
   <unicode hex="20AC"/>
   <outline>
@@ -73,19 +73,24 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 135"/>
-          <ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 135"/>
-          <ttc code="doublev" point1="dv05" point2="dv06" stem="Y: 135"/>
-          <ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 171"/>
-          <ttc code="singlev" point1="dv05" point2="sv02"/>
-          <ttc code="singlev" point1="dv04" point2="sv03"/>
-          <ttc code="singlev" point1="dv03" point2="sv04"/>
-          <ttc code="singlev" point1="dv02" point2="sv05"/>
-          <ttc code="singlev" point1="at01" point2="sv06" stem="Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaVpHOTFZbXhsZGlJZ2NHOXBiblF4UFNKa2RqQXhJaUJ3YjJs
+      dWRESTlJbVIyTURJaUlITjBaVzA5SWxrNklERXpOU0l2UGdvZ0lDQWdQSFIwWXlCamIyU
+      mxQU0prYjNWaWJHVjJJaUJ3YjJsdWRERTlJbVIyTURNaUlIQnZhVzUwTWowaVpIWXdOQ0
+      lnYzNSbGJUMGlXVG9nTVRNMUlpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltUnZkV0pzWlh
+      ZaUlIQnZhVzUwTVQwaVpIWXdOU0lnY0c5cGJuUXlQU0prZGpBMklpQnpkR1Z0UFNKWk9p
+      QXhNelVpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYzJsdVoyeGxkaUlnY0c5cGJuUXhQU
+      0poWWpBeElpQndiMmx1ZERJOUluTjJNREVpSUhOMFpXMDlJbGs2SURFM01TSXZQZ29nSU
+      NBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltUjJNRFVpSUhCdmF
+      XNTBNajBpYzNZd01pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndi
+      Mmx1ZERFOUltUjJNRFFpSUhCdmFXNTBNajBpYzNZd015SXZQZ29nSUNBZ1BIUjBZeUJqY
+      jJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltUjJNRE1pSUhCdmFXNTBNajBpYzNZd0
+      5DSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltUjJ
+      NRElpSUhCdmFXNTBNajBpYzNZd05TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVu
+      YkdWMklpQndiMmx1ZERFOUltRjBNREVpSUhCdmFXNTBNajBpYzNZd05pSWdjM1JsYlQwa
+      VdUb2dNVGN4SWk4K0NpQWdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="filigature" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="filigature" format="2">
   <advance width="1300"/>
   <unicode hex="FB01"/>
   <outline>
@@ -68,22 +68,28 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc align="round" code="alignv" point="av03"/>
-          <ttc align="round" code="alignv" point="av04"/>
-          <ttc align="round" code="alignv" point="av05"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="av02" point2="sv01"/>
-          <ttc code="singlev" point1="ab01" point2="sv02"/>
-          <ttc code="mdeltav" delta="4" point="mv01" ppm1="18" ppm2="18"/>
-          <ttc code="mdeltav" delta="-2" point="mv01" ppm1="19" ppm2="19"/>
-          <ttc code="singlev" point1="av01" point2="sv03"/>
-          <ttc code="singlev" point1="sv03" point2="sv04" stem="Y: 153"/>
-          <ttc code="singlev" point1="sv04" point2="sv05"/>
-          <ttc code="singlev" point1="av05" point2="sv06"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTJJaUJ3YjJsdWREMGlZWFl3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWRpSWdjRzlwYm5ROUltRjJNRE1pSUdG
+      c2FXZHVQU0p5YjNWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5ZaUlIQ
+      nZhVzUwUFNKaGRqQTBJaUJoYkdsbmJqMGljbTkxYm1RaUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaVlXeHBaMjUySWlCd2IybHVkRDBpWVhZd05TSWdZV3hwWjI0OUluSnZkVzVrSWk
+      4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVZaUlnY0c5cGJuUTlJbUZpTURFaUlI
+      cHZibVU5SW1JNklEQWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjR
+      zlwYm5ReFBTSmhkakF5SWlCd2IybHVkREk5SW5OMk1ERWlMejRLSUNBZ0lEeDBkR01nWT
+      I5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5ReFBTSmhZakF4SWlCd2IybHVkREk5SW5OMk1
+      ESWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUltMTJN
+      REVpSUdSbGJIUmhQU0kwSWlCd2NHMHhQU0l4T0NJZ2NIQnRNajBpTVRnaUx6NEtJQ0FnS
+      UR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoZGlJZ2NHOXBiblE5SW0xMk1ERWlJR1JsYkhSaF
+      BTSXRNaUlnY0hCdE1UMGlNVGtpSUhCd2JUSTlJakU1SWk4K0NpQWdJQ0E4ZEhSaklHTnZ
+      aR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVhZd01TSWdjRzlwYm5ReVBTSnpkakF6
+      SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzNZd
+      015SWdjRzlwYm5ReVBTSnpkakEwSWlCemRHVnRQU0paT2lBeE5UTWlMejRLSUNBZ0lEeD
+      BkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5ReFBTSnpkakEwSWlCd2IybHVkREk
+      5SW5OMk1EVWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5R
+      eFBTSmhkakExSWlCd2IybHVkREk5SW5OMk1EWWlMejRLSUNBOEwzUjBVSEp2WjNKaGJUN
+      Es=
       </data>
     </dict>
   </lib>

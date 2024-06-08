@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="section" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="section" format="2">
   <advance width="1300"/>
   <unicode hex="00A7"/>
+  <guideline x="850" y="0" angle="90"/>
   <outline>
     <contour>
-      <point x="888" y="1249" type="line"/>
+      <point x="888" y="1249" type="line" name="hr00"/>
       <point x="846" y="1272"/>
       <point x="780" y="1299"/>
       <point x="724" y="1314"/>
@@ -66,7 +67,7 @@
       <point x="227" y="383"/>
       <point x="166" y="510"/>
       <point x="166" y="593" type="qcurve"/>
-      <point x="166" y="645"/>
+      <point x="166" y="645" name="hr01"/>
       <point x="196" y="733"/>
       <point x="248" y="805"/>
       <point x="317" y="862"/>
@@ -116,38 +117,52 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList/>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -400 200</string>
+              <string>hstem 1318 199</string>
+              <string>vstem 185 317</string>
+              <string>vstem 688 318</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -400 200</string>
+              <string>hstem 1318 199</string>
+              <string>vstem 185 284</string>
+              <string>vstem 722 284</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="eq Y: 135"/>
-          <ttc code="interpolatev" point="iv01" point1="iv02" point2="sv01"/>
-          <ttc code="singlev" point1="av01" point2="sv02" stem="eq Y: 135"/>
-          <ttc code="interpolatev" point="iv03" point1="sv02" point2="iv04"/>
-          <ttc code="interpolatev" point="iv05" point1="iv04" point2="sv02"/>
-          <ttc code="interpolatev" point="iv06" point1="sv01" point2="iv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ01TSXZQZ29
+      nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltRjBNREVpSUhC
+      dmFXNTBNajBpYzNZd01TSWdjM1JsYlQwaVpYRWdXVG9nTVRNMUlpOCtDaUFnSUNBOGRIU
+      mpJR052WkdVOUltbHVkR1Z5Y0c5c1lYUmxkaUlnY0c5cGJuUTlJbWwyTURFaUlIQnZhVz
+      UwTVQwaWFYWXdNaUlnY0c5cGJuUXlQU0p6ZGpBeElpOCtDaUFnSUNBOGRIUmpJR052Wkd
+      VOUluTnBibWRzWlhZaUlIQnZhVzUwTVQwaVlYWXdNU0lnY0c5cGJuUXlQU0p6ZGpBeUlp
+      QnpkR1Z0UFNKbGNTQlpPaUF4TXpVaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWFXNTBaW
+      Ep3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TXlJZ2NHOXBiblF4UFNKemRqQXlJaUJ3Yj
+      JsdWRESTlJbWwyTURRaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWFXNTBaWEp3YjJ4aGR
+      HVjJJaUJ3YjJsdWREMGlhWFl3TlNJZ2NHOXBiblF4UFNKcGRqQTBJaUJ3YjJsdWRESTlJ
+      bk4yTURJaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWFXNTBaWEp3YjJ4aGRHVjJJaUJ3Y
+      jJsdWREMGlhWFl3TmlJZ2NHOXBiblF4UFNKemRqQXhJaUJ3YjJsdWRESTlJbWwyTURJaU
+      x6NEtJQ0E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>90</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>850</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

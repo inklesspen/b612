@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dagger" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger" format="2">
   <advance width="1300"/>
   <unicode hex="2020"/>
   <outline>
@@ -20,26 +20,33 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="at02">
-            <hstem pos="-379" width="-21"/>
-            <hstem pos="900" width="149"/>
-            <hstem pos="1520" width="-20"/>
-            <vstem pos="400" width="200"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -379 -21</string>
+              <string>hstem 900 149</string>
+              <string>hstem 1520 -20</string>
+              <string>vstem 400 200</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignt" point="at02" zone="t: x"/>
-          <ttc code="singlev" point1="at02" point2="sv01"/>
-          <ttc code="singlev" point1="av01" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ01TSXZQZ29
+      nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5RaUlIQnZhVzUwUFNKaGREQXlJaUI2YjI1
+      bFBTSjBPaUI0SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXN
+      TBNVDBpWVhRd01pSWdjRzlwYm5ReVBTSnpkakF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1
+      U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVhZd01TSWdjRzlwYm5ReVBTSnpkakF5SWk
+      4K0NpQWdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
     </dict>
   </lib>

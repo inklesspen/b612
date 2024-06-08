@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="trademark" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="trademark" format="2">
   <advance width="1300"/>
   <unicode hex="2122"/>
   <outline>
@@ -35,18 +35,24 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="921" width="-21"/>
-            <hstem pos="1400" width="100"/>
-            <vstem pos="203" width="201"/>
-            <vstem pos="624" width="180"/>
-            <vstem pos="1104" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 921 -21</string>
+              <string>hstem 1400 100</string>
+              <string>vstem 203 201</string>
+              <string>vstem 624 180</string>
+              <string>vstem 1104 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="indianrupee" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="indianrupee" format="2">
   <advance width="1300"/>
   <unicode hex="20B9"/>
   <outline>
@@ -56,17 +56,23 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="-4" point="mh01" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltah" delta="4" point="mh02" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltav" delta="-3" point="mv01" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltav" delta="2" point="mh01" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltav" delta="2" point="mh02" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltav" delta="-4" point="mv02" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltav" delta="-1" point="mv03" ppm1="15" ppm2="15"/>
-          <ttc code="mdeltav" delta="2" point="mv04" ppm1="14" ppm2="14"/>
-          <ttc code="mdeltav" delta="-3" point="mv04" ppm1="16" ppm2="16"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlpMDBJaUJ3Y0cweFBTSXhOaUlnY0hCdE1qMG
+      lNVFlpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbTF
+      vTURJaUlHUmxiSFJoUFNJMElpQndjRzB4UFNJeE5pSWdjSEJ0TWowaU1UWWlMejRLSUNB
+      Z0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUltMTJNREVpSUdSbGJIU
+      mhQU0l0TXlJZ2NIQnRNVDBpTVRZaUlIQndiVEk5SWpFMklpOCtDaUFnSUNBOGRIUmpJR0
+      52WkdVOUltMWtaV3gwWVhZaUlIQnZhVzUwUFNKdGFEQXhJaUJrWld4MFlUMGlNaUlnY0h
+      CdE1UMGlNVFlpSUhCd2JUSTlJakUySWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pX
+      eDBZWFlpSUhCdmFXNTBQU0p0YURBeUlpQmtaV3gwWVQwaU1pSWdjSEJ0TVQwaU1UWWlJS
+      EJ3YlRJOUlqRTJJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlYWWlJSEJ2YV
+      c1MFBTSnRkakF5SWlCa1pXeDBZVDBpTFRRaUlIQndiVEU5SWpFMklpQndjRzB5UFNJeE5
+      pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGMklpQndiMmx1ZEQwaWJYWXdN
+      eUlnWkdWc2RHRTlJaTB4SWlCd2NHMHhQU0l4TlNJZ2NIQnRNajBpTVRVaUx6NEtJQ0FnS
+      UR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoZGlJZ2NHOXBiblE5SW0xMk1EUWlJR1JsYkhSaF
+      BTSXlJaUJ3Y0cweFBTSXhOQ0lnY0hCdE1qMGlNVFFpTHo0S0lDQWdJRHgwZEdNZ1kyOWt
+      aVDBpYldSbGJIUmhkaUlnY0c5cGJuUTlJbTEyTURRaUlHUmxiSFJoUFNJdE15SWdjSEJ0
+      TVQwaU1UWWlJSEJ3YlRJOUlqRTJJaTgrQ2lBZ1BDOTBkRkJ5YjJkeVlXMCtDZz09
       </data>
     </dict>
   </lib>

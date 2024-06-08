@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="slashedzero" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashedzero" format="2">
   <advance width="1300"/>
   <unicode hex="E007"/>
   <outline>
@@ -69,17 +69,23 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="-17" width="174"/>
-            <hstem pos="1341" width="176"/>
-            <vstem pos="90" width="204"/>
-            <vstem pos="906" width="204"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 174</string>
+              <string>hstem 1341 176</string>
+              <string>vstem 90 204</string>
+              <string>vstem 906 204</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

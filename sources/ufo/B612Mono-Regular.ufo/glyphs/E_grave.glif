@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Egrave" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Egrave" format="2">
   <advance width="1300"/>
   <unicode hex="00C8"/>
   <outline>
@@ -30,33 +30,183 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="av01">
-            <hstem pos="1621" width="-21"/>
-            <hstem pos="1920" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>dh04</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 740 145</string>
+              <string>hstem 1340 160</string>
+              <string>vstem 190 210</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>av01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1621 -21</string>
+              <string>hstem 1920 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 208"/>
-          <ttc code="doubleh" point1="dh03" point2="dh04" stem="X: ecart du B"/>
-          <ttc code="singleh" point1="dh02" point2="sh01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignt" point="at02" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="alignb" point="ab02" zone="b: 0"/>
-          <ttc code="doublev" point1="dh03" point2="dv01" stem="Y: 144"/>
-          <ttc code="singlev" point1="ab02" point2="dh04" stem="Y: 162"/>
-          <ttc code="singlev" point1="at02" point2="sv01" stem="Y: 162"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at03" zone="t: 1"/>
-          <ttc code="interpolatev" point="iv01" point1="av01" point2="at03"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKa2IzVmliR1ZvSWlCd
+      2IybHVkREU5SW1Sb01ERWlJSEJ2YVc1ME1qMGlaR2d3TWlJZ2MzUmxiVDBpV0RvZ01qQT
+      RJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbVJ2ZFdKc1pXZ2lJSEJ2YVc1ME1UMGlaR2d
+      3TXlJZ2NHOXBiblF5UFNKa2FEQTBJaUJ6ZEdWdFBTSllPaUJsWTJGeWRDQmtkU0JDSWk4
+      K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaV2dpSUhCdmFXNTBNVDBpWkdnd01pS
+      WdjRzlwYm5ReVBTSnphREF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVkQ0
+      lnY0c5cGJuUTlJbUYwTURFaUlIcHZibVU5SW5RNklERWlMejRLSUNBZ0lEeDBkR01nWTI
+      5a1pUMGlZV3hwWjI1MElpQndiMmx1ZEQwaVlYUXdNaUlnZW05dVpUMGlkRG9nTVNJdlBn
+      b2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibUlpSUhCdmFXNTBQU0poWWpBeElpQjZiM
+      jVsUFNKaU9pQXdJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdVlpSWdjRzlwYm
+      5ROUltRmlNRElpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaVp
+      HOTFZbXhsZGlJZ2NHOXBiblF4UFNKa2FEQXpJaUJ3YjJsdWRESTlJbVIyTURFaUlITjBa
+      VzA5SWxrNklERTBOQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVjJJaUJ3Y
+      jJsdWRERTlJbUZpTURJaUlIQnZhVzUwTWowaVpHZ3dOQ0lnYzNSbGJUMGlXVG9nTVRZeU
+      lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUluTnBibWRzWlhZaUlIQnZhVzUwTVQwaVlYUXd
+      NaUlnY0c5cGJuUXlQU0p6ZGpBeElpQnpkR1Z0UFNKWk9pQXhOaklpTHo0S0lDQWdJRHgw
+      ZEdNZ1kyOWtaVDBpWVd4cFoyNTJJaUJ3YjJsdWREMGlZWFl3TVNJZ1lXeHBaMjQ5SW5Kd
+      mRXNWtJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWRDSWdjRzlwYm5ROUltRj
+      BNRE1pSUhwdmJtVTlJblE2SURFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWFXNTBaWEp
+      3YjJ4aGRHVjJJaUJ3YjJsdWREMGlhWFl3TVNJZ2NHOXBiblF4UFNKaGRqQXhJaUJ3YjJs
+      dWRESTlJbUYwTURNaUx6NEtJQ0E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
+      <key>com.fontlab.v5.background</key>
+      <dict>
+        <key>data</key>
+        <dict>
+          <key>bytes</key>
+          <array>
+            <integer>0</integer>
+            <integer>24</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>12</integer>
+            <integer>0</integer>
+          </array>
+          <key>extra</key>
+          <array>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>60</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+          </array>
+          <key>num_bytes</key>
+          <integer>7</integer>
+        </dict>
+        <key>len</key>
+        <integer>97</integer>
+        <key>origin</key>
+        <array>
+          <integer>-333</integer>
+          <integer>-416</integer>
+        </array>
+        <key>size_pixels</key>
+        <array>
+          <integer>24</integer>
+          <integer>24</integer>
+        </array>
+        <key>size_units</key>
+        <array>
+          <integer>1666</integer>
+          <integer>1583</integer>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

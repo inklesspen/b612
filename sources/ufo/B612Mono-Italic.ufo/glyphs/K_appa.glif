@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Kappa" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kappa" format="2">
   <advance width="1300"/>
   <unicode hex="039A"/>
   <outline>
@@ -24,13 +24,14 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignt" point="at02" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="at01" point2="sv01"/>
-          <ttc code="singlev" point1="ab01" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdWRDSWdjRzlwYm5ROUltRjBNRElpSUhwdmJtVTlJblE2SURFaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaVlXeHBaMjVpSWlCd2IybHVkRDBpWVdJd01TSWdlbTl1WlQw
+      aVlqb2dNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVjJJaUJ3YjJsdWRER
+      TlJbUYwTURFaUlIQnZhVzUwTWowaWMzWXdNU0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0
+      p6YVc1bmJHVjJJaUJ3YjJsdWRERTlJbUZpTURFaUlIQnZhVzUwTWowaWMzWXdNaUl2UGd
+      vZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Zeta" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zeta" format="2">
   <advance width="1300"/>
   <unicode hex="0396"/>
   <outline>
@@ -22,25 +22,34 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="sv01">
-            <hstem pos="0" width="160"/>
-            <hstem pos="1340" width="160"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 160</string>
+              <string>hstem 1340 160</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 162"/>
-          <ttc code="interpolatev" point="iv01" point1="at01" point2="iv02"/>
-          <ttc code="singlev" point1="at01" point2="sv02" stem="Y: 162"/>
-          <ttc code="interpolatev" point="iv03" point1="ab01" point2="sv01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKaFlqQXhJaUJ3YjJs
+      dWRESTlJbk4yTURFaUlITjBaVzA5SWxrNklERTJNaUl2UGdvZ0lDQWdQSFIwWXlCamIyU
+      mxQU0pwYm5SbGNuQnZiR0YwWlhZaUlIQnZhVzUwUFNKcGRqQXhJaUJ3YjJsdWRERTlJbU
+      YwTURFaUlIQnZhVzUwTWowaWFYWXdNaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc
+      1bmJHVjJJaUJ3YjJsdWRERTlJbUYwTURFaUlIQnZhVzUwTWowaWMzWXdNaUlnYzNSbGJU
+      MGlXVG9nTVRZeUlpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltbHVkR1Z5Y0c5c1lYUmxka
+      UlnY0c5cGJuUTlJbWwyTURNaUlIQnZhVzUwTVQwaVlXSXdNU0lnY0c5cGJuUXlQU0p6ZG
+      pBeElpOCtDaUFnUEM5MGRGQnliMmR5WVcwK0NnPT0=
       </data>
     </dict>
   </lib>

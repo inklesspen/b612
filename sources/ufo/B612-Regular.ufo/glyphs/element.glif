@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="element" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="element" format="2">
   <advance width="1500"/>
   <unicode hex="2208"/>
+  <guideline x="0" y="1300" angle="0"/>
   <outline>
     <contour>
       <point x="1420" y="0" type="line" name="hr00"/>
@@ -39,32 +40,23 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="0" width="153"/>
-            <hstem pos="575" width="150"/>
-            <hstem pos="1146" width="154"/>
-            <vstem pos="100" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>1300</integer>
-        </dict>
-      </array>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 153</string>
+              <string>hstem 575 150</string>
+              <string>hstem 1146 154</string>
+              <string>vstem 100 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

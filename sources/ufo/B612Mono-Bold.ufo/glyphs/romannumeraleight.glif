@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="romannumeraleight" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="romannumeraleight" format="2">
   <advance width="2600"/>
   <unicode hex="2167"/>
   <outline>
@@ -46,100 +46,454 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="mh02">
-            <hstem pos="0" width="228"/>
-            <hstem pos="1272" width="228"/>
-          </hintset>
-          <hintset pointTag="mh05">
-            <hstem pos="0" width="228"/>
-            <hstem pos="1272" width="228"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 4 -21</string>
+              <string>hstem 1520 -20</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>mh02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 228</string>
+              <string>hstem 1272 228</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>mh05</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 228</string>
+              <string>hstem 1272 228</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc code="singleh" point1="ah02" point2="sh01" stem="eq X: dia Lite"/>
-          <ttc code="singleh" point1="ah01" point2="sh02" stem="eq X: dia Fat"/>
-          <ttc code="mdeltah" delta="-5" point="mh01" ppm1="17" ppm2="17"/>
-          <ttc code="interpolateh" point="ih01" point1="ah01" point2="sh01"/>
-          <ttc code="alignt" point="sh02" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="mdeltav" delta="-1" point="mh01" ppm1="17" ppm2="17"/>
-          <ttc code="interpolatev" point="ih01" point1="sh02" point2="ab01"/>
-          <ttc align="round" code="alignh" point="ah03"/>
-          <ttc align="round" code="alignh" point="ah04"/>
-          <ttc align="round" code="alignh" point="ah05"/>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="eq X: 208"/>
-          <ttc code="doubleh" point1="dh03" point2="dh04" stem="eq X: 208"/>
-          <ttc code="mdeltah" delta="-4" point="mh02" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-8" point="mh02" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="8" point="ah04" ppm1="23" ppm2="23"/>
-          <ttc code="mdeltah" delta="-8" point="ah04" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-3" point="mh03" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-4" point="ah03" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-6" point="ah03" ppm1="24" ppm2="24"/>
-          <ttc code="singleh" point1="ah03" point2="sh03" round="true"/>
-          <ttc code="mdeltah" delta="-5" point="sh03" ppm1="17" ppm2="17"/>
-          <ttc code="mdeltah" delta="-5" point="sh03" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-8" point="sh03" ppm1="19" ppm2="19"/>
-          <ttc code="mdeltah" delta="-5" point="ah05" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-4" point="mh04" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-7" point="mh04" ppm1="24" ppm2="24"/>
-          <ttc code="singleh" point1="ah04" point2="sh04" round="true"/>
-          <ttc code="mdeltah" delta="-1" point="sh04" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-5" point="sh04" ppm1="22" ppm2="22"/>
-          <ttc code="singleh" point1="ah03" point2="lsb" stem="eq X: 190"/>
-          <ttc code="singleh" point1="ah05" point2="rsb" stem="eq X: 190"/>
-          <ttc code="alignt" point="mh02" zone="t: 1"/>
-          <ttc code="alignt" point="ah04" zone="t: 1"/>
-          <ttc code="alignb" point="ah03" zone="b: 0"/>
-          <ttc code="alignb" point="ah05" zone="b: 0"/>
-          <ttc code="singlev" point1="ah04" point2="mh03" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="ah05" point2="sh03" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="ah03" point2="mh04" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="mh02" point2="sh04" stem="eq Y: 171"/>
-          <ttc code="mdeltav" delta="1" point="sh04" ppm1="22" ppm2="22"/>
-          <ttc align="round" code="alignh" point="ah06"/>
-          <ttc align="round" code="alignh" point="ah07"/>
-          <ttc align="round" code="alignh" point="ah08"/>
-          <ttc code="doubleh" point1="dh05" point2="dh06" stem="eq X: 208"/>
-          <ttc code="doubleh" point1="dh07" point2="dh08" stem="eq X: 208"/>
-          <ttc code="mdeltah" delta="-4" point="mh05" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-8" point="mh05" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="8" point="ah07" ppm1="23" ppm2="23"/>
-          <ttc code="mdeltah" delta="-8" point="ah07" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-3" point="mh06" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-4" point="ah06" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-6" point="ah06" ppm1="24" ppm2="24"/>
-          <ttc code="singleh" point1="ah06" point2="sh05" round="true"/>
-          <ttc code="mdeltah" delta="-5" point="sh05" ppm1="17" ppm2="17"/>
-          <ttc code="mdeltah" delta="-5" point="sh05" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-8" point="sh05" ppm1="19" ppm2="19"/>
-          <ttc code="mdeltah" delta="-5" point="ah08" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-4" point="mh07" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-7" point="mh07" ppm1="24" ppm2="24"/>
-          <ttc code="singleh" point1="ah07" point2="sh06" round="true"/>
-          <ttc code="mdeltah" delta="-1" point="sh06" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="-5" point="sh06" ppm1="22" ppm2="22"/>
-          <ttc code="singleh" point1="ah06" point2="lsb" stem="eq X: 190"/>
-          <ttc code="singleh" point1="ah08" point2="rsb" stem="eq X: 190"/>
-          <ttc code="alignt" point="mh05" zone="t: 1"/>
-          <ttc code="alignt" point="ah07" zone="t: 1"/>
-          <ttc code="alignb" point="ah06" zone="b: 0"/>
-          <ttc code="alignb" point="ah08" zone="b: 0"/>
-          <ttc code="singlev" point1="ah07" point2="mh06" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="ah08" point2="sh05" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="ah06" point2="mh07" stem="eq Y: 171"/>
-          <ttc code="singlev" point1="mh05" point2="sh06" stem="eq Y: 171"/>
-          <ttc code="mdeltav" delta="1" point="sh06" ppm1="22" ppm2="22"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TWlJ
+      Z2NHOXBiblF5UFNKemFEQXhJaUJ6ZEdWdFBTSmxjU0JZT2lCa2FXRWdUR2wwWlNJdlBnb
+      2dJQ0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1ZvSWlCd2IybHVkREU5SW1Gb01ERWlJSE
+      J2YVc1ME1qMGljMmd3TWlJZ2MzUmxiVDBpWlhFZ1dEb2daR2xoSUVaaGRDSXZQZ29nSUN
+      BZ1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaWJXZ3dNU0lnWkdWc2RH
+      RTlJaTAxSWlCd2NHMHhQU0l4TnlJZ2NIQnRNajBpTVRjaUx6NEtJQ0FnSUR4MGRHTWdZM
+      jlrWlQwaWFXNTBaWEp3YjJ4aGRHVm9JaUJ3YjJsdWREMGlhV2d3TVNJZ2NHOXBiblF4UF
+      NKaGFEQXhJaUJ3YjJsdWRESTlJbk5vTURFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaVl
+      XeHBaMjUwSWlCd2IybHVkRDBpYzJnd01pSWdlbTl1WlQwaWREb2dNU0l2UGdvZ0lDQWdQ
+      SFIwWXlCamIyUmxQU0poYkdsbmJtSWlJSEJ2YVc1MFBTSmhZakF4SWlCNmIyNWxQU0ppT
+      2lBd0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVhZaUlIQnZhVzUwUFNKdG
+      FEQXhJaUJrWld4MFlUMGlMVEVpSUhCd2JURTlJakUzSWlCd2NHMHlQU0l4TnlJdlBnb2d
+      JQ0FnUEhSMFl5QmpiMlJsUFNKcGJuUmxjbkJ2YkdGMFpYWWlJSEJ2YVc1MFBTSnBhREF4
+      SWlCd2IybHVkREU5SW5Ob01ESWlJSEJ2YVc1ME1qMGlZV0l3TVNJdlBnb2dJQ0FnUEhSM
+      Fl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCdmFXNTBQU0poYURBeklpQmhiR2xuYmowaWNtOT
+      FibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d
+      3TkNJZ1lXeHBaMjQ5SW5KdmRXNWtJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdk
+      dWFDSWdjRzlwYm5ROUltRm9NRFVpSUdGc2FXZHVQU0p5YjNWdVpDSXZQZ29nSUNBZ1BIU
+      jBZeUJqYjJSbFBTSmtiM1ZpYkdWb0lpQndiMmx1ZERFOUltUm9NREVpSUhCdmFXNTBNaj
+      BpWkdnd01pSWdjM1JsYlQwaVpYRWdXRG9nTWpBNElpOCtDaUFnSUNBOGRIUmpJR052Wkd
+      VOUltUnZkV0pzWldnaUlIQnZhVzUwTVQwaVpHZ3dNeUlnY0c5cGJuUXlQU0prYURBMElp
+      QnpkR1Z0UFNKbGNTQllPaUF5TURnaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiS
+      FJoYUNJZ2NHOXBiblE5SW0xb01ESWlJR1JsYkhSaFBTSXROQ0lnY0hCdE1UMGlNaklpSU
+      hCd2JUSTlJakl5SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZV2dpSUhCdmF
+      XNTBQU0p0YURBeUlpQmtaV3gwWVQwaUxUZ2lJSEJ3YlRFOUlqSTBJaUJ3Y0cweVBTSXlO
+      Q0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGlZV2d3T
+      kNJZ1pHVnNkR0U5SWpnaUlIQndiVEU5SWpJeklpQndjRzB5UFNJeU15SXZQZ29nSUNBZ1
+      BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaVlXZ3dOQ0lnWkdWc2RHRTl
+      JaTA0SWlCd2NHMHhQU0l5TkNJZ2NIQnRNajBpTWpRaUx6NEtJQ0FnSUR4MGRHTWdZMjlr
+      WlQwaWJXUmxiSFJoYUNJZ2NHOXBiblE5SW0xb01ETWlJR1JsYkhSaFBTSXRNeUlnY0hCd
+      E1UMGlNalFpSUhCd2JUSTlJakkwSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeD
+      BZV2dpSUhCdmFXNTBQU0poYURBeklpQmtaV3gwWVQwaUxUUWlJSEJ3YlRFOUlqSXlJaUJ
+      3Y0cweVBTSXlNaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJs
+      dWREMGlZV2d3TXlJZ1pHVnNkR0U5SWkwMklpQndjRzB4UFNJeU5DSWdjSEJ0TWowaU1qU
+      WlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSmhhRE
+      F6SWlCd2IybHVkREk5SW5Ob01ETWlJSEp2ZFc1a1BTSjBjblZsSWk4K0NpQWdJQ0E4ZEh
+      SaklHTnZaR1U5SW0xa1pXeDBZV2dpSUhCdmFXNTBQU0p6YURBeklpQmtaV3gwWVQwaUxU
+      VWlJSEJ3YlRFOUlqRTNJaUJ3Y0cweVBTSXhOeUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU
+      0p0WkdWc2RHRm9JaUJ3YjJsdWREMGljMmd3TXlJZ1pHVnNkR0U5SWkwMUlpQndjRzB4UF
+      NJeU5DSWdjSEJ0TWowaU1qUWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGF
+      DSWdjRzlwYm5ROUluTm9NRE1pSUdSbGJIUmhQU0l0T0NJZ2NIQnRNVDBpTVRraUlIQndi
+      VEk5SWpFNUlpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVdnaUlIQnZhVzUwU
+      FNKaGFEQTFJaUJrWld4MFlUMGlMVFVpSUhCd2JURTlJakkwSWlCd2NHMHlQU0l5TkNJdl
+      Bnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd2IybHVkRDBpYldnd05DSWd
+      aR1ZzZEdFOUlpMDBJaUJ3Y0cweFBTSXlNaUlnY0hCdE1qMGlNaklpTHo0S0lDQWdJRHgw
+      ZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbTFvTURRaUlHUmxiSFJoUFNJd
+      E55SWdjSEJ0TVQwaU1qUWlJSEJ3YlRJOUlqSTBJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TkNJZ2NHOXBiblF5UFNKemFEQTBJaUJ
+      5YjNWdVpEMGlkSEoxWlNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlC
+      d2IybHVkRDBpYzJnd05DSWdaR1ZzZEdFOUlpMHhJaUJ3Y0cweFBTSXlOQ0lnY0hCdE1qM
+      GlNalFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbk
+      5vTURRaUlHUmxiSFJoUFNJdE5TSWdjSEJ0TVQwaU1qSWlJSEJ3YlRJOUlqSXlJaTgrQ2l
+      BZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TXlJZ2NH
+      OXBiblF5UFNKc2MySWlJSE4wWlcwOUltVnhJRmc2SURFNU1DSXZQZ29nSUNBZ1BIUjBZe
+      UJqYjJSbFBTSnphVzVuYkdWb0lpQndiMmx1ZERFOUltRm9NRFVpSUhCdmFXNTBNajBpY2
+      5OaUlpQnpkR1Z0UFNKbGNTQllPaUF4T1RBaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaVl
+      XeHBaMjUwSWlCd2IybHVkRDBpYldnd01pSWdlbTl1WlQwaWREb2dNU0l2UGdvZ0lDQWdQ
+      SFIwWXlCamIyUmxQU0poYkdsbmJuUWlJSEJ2YVc1MFBTSmhhREEwSWlCNmIyNWxQU0owT
+      2lBeElpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltRnNhV2R1WWlJZ2NHOXBiblE5SW1Gb0
+      1ETWlJSHB2Ym1VOUltSTZJREFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd4cFoyNWl
+      JaUJ3YjJsdWREMGlZV2d3TlNJZ2VtOXVaVDBpWWpvZ01DSXZQZ29nSUNBZ1BIUjBZeUJq
+      YjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltRm9NRFFpSUhCdmFXNTBNajBpYldnd
+      015SWdjM1JsYlQwaVpYRWdXVG9nTVRjeElpOCtDaUFnSUNBOGRIUmpJR052WkdVOUluTn
+      BibWRzWlhZaUlIQnZhVzUwTVQwaVlXZ3dOU0lnY0c5cGJuUXlQU0p6YURBeklpQnpkR1Z
+      0UFNKbGNTQlpPaUF4TnpFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJ
+      Z2NHOXBiblF4UFNKaGFEQXpJaUJ3YjJsdWRESTlJbTFvTURRaUlITjBaVzA5SW1WeElGa
+      zZJREUzTVNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1YySWlCd2IybHVkRE
+      U5SW0xb01ESWlJSEJ2YVc1ME1qMGljMmd3TkNJZ2MzUmxiVDBpWlhFZ1dUb2dNVGN4SWk
+      4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZWFlpSUhCdmFXNTBQU0p6YURBMElp
+      QmtaV3gwWVQwaU1TSWdjSEJ0TVQwaU1qSWlJSEJ3YlRJOUlqSXlJaTgrQ2lBZ0lDQThkS
+      FJqSUdOdlpHVTlJbUZzYVdkdWFDSWdjRzlwYm5ROUltRm9NRFlpSUdGc2FXZHVQU0p5Yj
+      NWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1naUlIQnZhVzUwUFNKaGF
+      EQTNJaUJoYkdsbmJqMGljbTkxYm1RaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaVlXeHBa
+      MjVvSWlCd2IybHVkRDBpWVdnd09DSWdZV3hwWjI0OUluSnZkVzVrSWk4K0NpQWdJQ0E4Z
+      EhSaklHTnZaR1U5SW1SdmRXSnNaV2dpSUhCdmFXNTBNVDBpWkdnd05TSWdjRzlwYm5ReV
+      BTSmthREEySWlCemRHVnRQU0psY1NCWU9pQXlNRGdpTHo0S0lDQWdJRHgwZEdNZ1kyOWt
+      aVDBpWkc5MVlteGxhQ0lnY0c5cGJuUXhQU0prYURBM0lpQndiMmx1ZERJOUltUm9NRGdp
+      SUhOMFpXMDlJbVZ4SUZnNklESXdPQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc
+      2RHRm9JaUJ3YjJsdWREMGliV2d3TlNJZ1pHVnNkR0U5SWkwMElpQndjRzB4UFNJeU1pSW
+      djSEJ0TWowaU1qSWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzl
+      wYm5ROUltMW9NRFVpSUdSbGJIUmhQU0l0T0NJZ2NIQnRNVDBpTWpRaUlIQndiVEk5SWpJ
+      MElpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVdnaUlIQnZhVzUwUFNKaGFEQ
+      TNJaUJrWld4MFlUMGlPQ0lnY0hCdE1UMGlNak1pSUhCd2JUSTlJakl6SWk4K0NpQWdJQ0
+      E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZV2dpSUhCdmFXNTBQU0poYURBM0lpQmtaV3gwWVQ
+      waUxUZ2lJSEJ3YlRFOUlqSTBJaUJ3Y0cweVBTSXlOQ0l2UGdvZ0lDQWdQSFIwWXlCamIy
+      UmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d3TmlJZ1pHVnNkR0U5SWkweklpQndjR
+      zB4UFNJeU5DSWdjSEJ0TWowaU1qUWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYk
+      hSaGFDSWdjRzlwYm5ROUltRm9NRFlpSUdSbGJIUmhQU0l0TkNJZ2NIQnRNVDBpTWpJaUl
+      IQndiVEk5SWpJeUlpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVdnaUlIQnZh
+      VzUwUFNKaGFEQTJJaUJrWld4MFlUMGlMVFlpSUhCd2JURTlJakkwSWlCd2NHMHlQU0l5T
+      kNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1ZvSWlCd2IybHVkREU5SW1Gb0
+      1EWWlJSEJ2YVc1ME1qMGljMmd3TlNJZ2NtOTFibVE5SW5SeWRXVWlMejRLSUNBZ0lEeDB
+      kR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUluTm9NRFVpSUdSbGJIUmhQU0l0
+      TlNJZ2NIQnRNVDBpTVRjaUlIQndiVEk5SWpFM0lpOCtDaUFnSUNBOGRIUmpJR052WkdVO
+      UltMWtaV3gwWVdnaUlIQnZhVzUwUFNKemFEQTFJaUJrWld4MFlUMGlMVFVpSUhCd2JURT
+      lJakkwSWlCd2NHMHlQU0l5TkNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0Z
+      vSWlCd2IybHVkRDBpYzJnd05TSWdaR1ZzZEdFOUlpMDRJaUJ3Y0cweFBTSXhPU0lnY0hC
+      dE1qMGlNVGtpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuU
+      TlJbUZvTURnaUlHUmxiSFJoUFNJdE5TSWdjSEJ0TVQwaU1qUWlJSEJ3YlRJOUlqSTBJaT
+      grQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJSEJ2YVc1MFBTSnRhREEzSWl
+      Ca1pXeDBZVDBpTFRRaUlIQndiVEU5SWpJeUlpQndjRzB5UFNJeU1pSXZQZ29nSUNBZ1BI
+      UjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaWJXZ3dOeUlnWkdWc2RHRTlJa
+      TAzSWlCd2NHMHhQU0l5TkNJZ2NIQnRNajBpTWpRaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWl
+      QwaWMybHVaMnhsYUNJZ2NHOXBiblF4UFNKaGFEQTNJaUJ3YjJsdWRESTlJbk5vTURZaUl
+      ISnZkVzVrUFNKMGNuVmxJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJ
+      SEJ2YVc1MFBTSnphREEySWlCa1pXeDBZVDBpTFRFaUlIQndiVEU5SWpJMElpQndjRzB5U
+      FNJeU5DSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaW
+      MyZ3dOaUlnWkdWc2RHRTlJaTAxSWlCd2NHMHhQU0l5TWlJZ2NIQnRNajBpTWpJaUx6NEt
+      JQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsYUNJZ2NHOXBiblF4UFNKaGFEQTJJaUJ3
+      YjJsdWRESTlJbXh6WWlJZ2MzUmxiVDBpWlhFZ1dEb2dNVGt3SWk4K0NpQWdJQ0E4ZEhSa
+      klHTnZaR1U5SW5OcGJtZHNaV2dpSUhCdmFXNTBNVDBpWVdnd09DSWdjRzlwYm5ReVBTSn
+      ljMklpSUhOMFpXMDlJbVZ4SUZnNklERTVNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p
+      oYkdsbmJuUWlJSEJ2YVc1MFBTSnRhREExSWlCNmIyNWxQU0owT2lBeElpOCtDaUFnSUNB
+      OGRIUmpJR052WkdVOUltRnNhV2R1ZENJZ2NHOXBiblE5SW1Gb01EY2lJSHB2Ym1VOUluU
+      TZJREVpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd4cFoyNWlJaUJ3YjJsdWREMGlZV2
+      d3TmlJZ2VtOXVaVDBpWWpvZ01DSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1
+      JaUlIQnZhVzUwUFNKaGFEQTRJaUI2YjI1bFBTSmlPaUF3SWk4K0NpQWdJQ0E4ZEhSaklH
+      TnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVdnd055SWdjRzlwYm5ReVBTSnRhR
+      EEySWlCemRHVnRQU0psY1NCWk9pQXhOekVpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYz
+      JsdVoyeGxkaUlnY0c5cGJuUXhQU0poYURBNElpQndiMmx1ZERJOUluTm9NRFVpSUhOMFp
+      XMDlJbVZ4SUZrNklERTNNU0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVjJJ
+      aUJ3YjJsdWRERTlJbUZvTURZaUlIQnZhVzUwTWowaWJXZ3dOeUlnYzNSbGJUMGlaWEVnV
+      1RvZ01UY3hJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYWWlJSEJ2YVc1ME
+      1UMGliV2d3TlNJZ2NHOXBiblF5UFNKemFEQTJJaUJ6ZEdWdFBTSmxjU0JaT2lBeE56RWl
+      MejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUluTm9NRFlp
+      SUdSbGJIUmhQU0l4SWlCd2NHMHhQU0l5TWlJZ2NIQnRNajBpTWpJaUx6NEtJQ0E4TDNSM
+      FVISnZaM0poYlQ0Sw==
       </data>
+      <key>com.fontlab.v5.background</key>
+      <dict>
+        <key>data</key>
+        <dict>
+          <key>bytes</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>60</integer>
+            <integer>255</integer>
+            <integer>6</integer>
+            <integer>63</integer>
+            <integer>192</integer>
+            <integer>255</integer>
+            <integer>2</integer>
+            <integer>63</integer>
+            <integer>192</integer>
+            <integer>255</integer>
+            <integer>2</integer>
+            <integer>42</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>2</integer>
+            <integer>42</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>3</integer>
+            <integer>106</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>3</integer>
+            <integer>106</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>3</integer>
+            <integer>106</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>106</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>74</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>74</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>74</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>74</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>74</integer>
+            <integer>128</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>223</integer>
+            <integer>192</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>159</integer>
+            <integer>192</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>num_bytes</key>
+          <integer>254</integer>
+        </dict>
+        <key>len</key>
+        <integer>96</integer>
+        <key>origin</key>
+        <array>
+          <integer>-333</integer>
+          <integer>-416</integer>
+        </array>
+        <key>size_pixels</key>
+        <array>
+          <integer>24</integer>
+          <integer>24</integer>
+        </array>
+        <key>size_units</key>
+        <array>
+          <integer>1666</integer>
+          <integer>1583</integer>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="florin" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
   <advance width="1300"/>
   <unicode hex="0192"/>
   <outline>
@@ -65,17 +65,22 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="1" point="mh01" ppm1="20" ppm2="20"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: -500"/>
-          <ttc code="singlev" point1="av01" point2="sv01"/>
-          <ttc code="mdeltav" delta="4" point="mh01" ppm1="19" ppm2="19"/>
-          <ttc code="mdeltav" delta="6" point="mh01" ppm1="20" ppm2="20"/>
-          <ttc code="mdeltav" delta="4" point="mh01" ppm1="14" ppm2="14"/>
-          <ttc code="mdeltav" delta="3" point="mh01" ppm1="15" ppm2="15"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqRWlJSEJ3YlRFOUlqSXdJaUJ3Y0cweVBTSX
+      lNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkdsbmJuWWlJSEJ2YVc1MFBTSmhkakF
+      4SWlCaGJHbG5iajBpY205MWJtUWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGlZV3hwWjI1
+      MElpQndiMmx1ZEQwaVlYUXdNU0lnZW05dVpUMGlkRG9nTVNJdlBnb2dJQ0FnUEhSMFl5Q
+      mpiMlJsUFNKaGJHbG5ibUlpSUhCdmFXNTBQU0poWWpBeElpQjZiMjVsUFNKaU9pQXROVE
+      F3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVh
+      Zd01TSWdjRzlwYm5ReVBTSnpkakF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pX
+      eDBZWFlpSUhCdmFXNTBQU0p0YURBeElpQmtaV3gwWVQwaU5DSWdjSEJ0TVQwaU1Ua2lJS
+      EJ3YlRJOUlqRTVJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlYWWlJSEJ2YV
+      c1MFBTSnRhREF4SWlCa1pXeDBZVDBpTmlJZ2NIQnRNVDBpTWpBaUlIQndiVEk5SWpJd0l
+      pOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVhZaUlIQnZhVzUwUFNKdGFEQXhJ
+      aUJrWld4MFlUMGlOQ0lnY0hCdE1UMGlNVFFpSUhCd2JUSTlJakUwSWk4K0NpQWdJQ0E4Z
+      EhSaklHTnZaR1U5SW0xa1pXeDBZWFlpSUhCdmFXNTBQU0p0YURBeElpQmtaV3gwWVQwaU
+      15SWdjSEJ0TVQwaU1UVWlJSEJ3YlRJOUlqRTFJaTgrQ2lBZ1BDOTBkRkJ5YjJkeVlXMCt
+      DZz09
       </data>
     </dict>
   </lib>

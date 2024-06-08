@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Xi" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Xi" format="2">
   <advance width="1300"/>
   <unicode hex="039E"/>
   <outline>
@@ -26,17 +26,21 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="av01" point2="sv01"/>
-          <ttc code="singlev" point1="sv01" point2="sv02" stem="Y: 171"/>
-          <ttc code="singlev" point1="ab01" point2="sv03"/>
-          <ttc code="singlev" point1="sv03" point2="sv04" stem="Y: 171"/>
-          <ttc code="singlev" point1="at01" point2="sv05"/>
-          <ttc code="singlev" point1="sv05" point2="sv06" stem="Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ01TSXZQZ29
+      nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1JaUlIQnZhVzUwUFNKaFlqQXhJaUI2YjI1
+      bFBTSmlPaUF3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXN
+      TBNVDBpWVhZd01TSWdjRzlwYm5ReVBTSnpkakF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1
+      U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYzNZd01TSWdjRzlwYm5ReVBTSnpkakF5SWl
+      CemRHVnRQU0paT2lBeE56RWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRp
+      SWdjRzlwYm5ReFBTSmhZakF4SWlCd2IybHVkREk5SW5OMk1ETWlMejRLSUNBZ0lEeDBkR
+      01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5ReFBTSnpkakF6SWlCd2IybHVkREk5SW
+      5OMk1EUWlJSE4wWlcwOUlsazZJREUzTVNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKemF
+      XNW5iR1YySWlCd2IybHVkREU5SW1GME1ERWlJSEJ2YVc1ME1qMGljM1l3TlNJdlBnb2dJ
+      Q0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1YySWlCd2IybHVkREU5SW5OMk1EVWlJSEJ2Y
+      Vc1ME1qMGljM1l3TmlJZ2MzUmxiVDBpV1RvZ01UY3hJaTgrQ2lBZ1BDOTBkRkJ5YjJkeV
+      lXMCtDZz09
       </data>
     </dict>
   </lib>

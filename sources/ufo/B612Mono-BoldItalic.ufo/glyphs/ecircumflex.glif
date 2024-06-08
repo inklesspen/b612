@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ecircumflex" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflex" format="2">
   <advance width="1300"/>
   <unicode hex="00EA"/>
   <outline>
     <contour>
-      <point x="1078" y="158" type="line"/>
+      <point x="1078" y="158" type="line" name="hr00"/>
       <point x="1032" y="121"/>
       <point x="928" y="58"/>
       <point x="808" y="11"/>
@@ -71,20 +71,44 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList/>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 160</string>
+              <string>hstem 500 150</string>
+              <string>hstem 958 159</string>
+              <string>vstem 100 190</string>
+              <string>vstem 802 188</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sv02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1241 -21</string>
+              <string>hstem 1520 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: x"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="av01" point2="sv01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc code="singlev" point1="av02" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ2VDSXZQZ29
+      nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1JaUlIQnZhVzUwUFNKaFlqQXhJaUI2YjI1
+      bFBTSmlPaUF3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXN
+      TBNVDBpWVhZd01TSWdjRzlwYm5ReVBTSnpkakF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1
+      U5SW1Gc2FXZHVkaUlnY0c5cGJuUTlJbUYyTURJaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGd
+      vZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVjJJaUJ3YjJsdWRERTlJbUYyTURJaUlI
+      QnZhVzUwTWowaWMzWXdNaUl2UGdvZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

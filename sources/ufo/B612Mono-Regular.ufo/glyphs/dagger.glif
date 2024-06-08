@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dagger" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dagger" format="2">
   <advance width="1300"/>
   <unicode hex="2020"/>
   <outline>
@@ -20,31 +20,41 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="at02">
-            <hstem pos="-379" width="-21"/>
-            <hstem pos="900" width="149"/>
-            <hstem pos="1520" width="-20"/>
-            <vstem pos="400" width="200"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>at02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -379 -21</string>
+              <string>hstem 900 149</string>
+              <string>hstem 1520 -20</string>
+              <string>vstem 400 200</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="doubleh" point1="dh01" point2="dh02" stem="X: 208"/>
-          <ttc code="singleh" point1="dh02" point2="sh01"/>
-          <ttc code="singleh" point1="dh01" point2="sh02"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignt" point="at02" zone="t: x"/>
-          <ttc code="alignt" point="dh02" zone="t: x"/>
-          <ttc code="singlev" point1="dh02" point2="sv01" stem="Y: 153"/>
-          <ttc code="singlev" point1="sv01" point2="sv02"/>
-          <ttc code="singlev" point1="sv02" point2="sv03"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKa2IzVmliR1ZvSWlCd
+      2IybHVkREU5SW1Sb01ERWlJSEJ2YVc1ME1qMGlaR2d3TWlJZ2MzUmxiVDBpV0RvZ01qQT
+      RJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlaR2d
+      3TWlJZ2NHOXBiblF5UFNKemFEQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1k
+      c1pXZ2lJSEJ2YVc1ME1UMGlaR2d3TVNJZ2NHOXBiblF5UFNKemFEQXlJaTgrQ2lBZ0lDQ
+      ThkSFJqSUdOdlpHVTlJbUZzYVdkdWRpSWdjRzlwYm5ROUltRjJNREVpSUdGc2FXZHVQU0
+      p5YjNWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5RaUlIQnZhVzUwUFN
+      KaGREQXhJaUI2YjI1bFBTSjBPaUF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FX
+      ZHVkQ0lnY0c5cGJuUTlJbUYwTURJaUlIcHZibVU5SW5RNklIZ2lMejRLSUNBZ0lEeDBkR
+      01nWTI5a1pUMGlZV3hwWjI1MElpQndiMmx1ZEQwaVpHZ3dNaUlnZW05dVpUMGlkRG9nZU
+      NJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKemFXNW5iR1YySWlCd2IybHVkREU5SW1Sb01
+      ESWlJSEJ2YVc1ME1qMGljM1l3TVNJZ2MzUmxiVDBpV1RvZ01UVXpJaTgrQ2lBZ0lDQThk
+      SFJqSUdOdlpHVTlJbk5wYm1kc1pYWWlJSEJ2YVc1ME1UMGljM1l3TVNJZ2NHOXBiblF5U
+      FNKemRqQXlJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYWWlJSEJ2YVc1ME
+      1UMGljM1l3TWlJZ2NHOXBiblF5UFNKemRqQXpJaTgrQ2lBZ1BDOTBkRkJ5YjJkeVlXMCt
+      DZz09
       </data>
     </dict>
   </lib>

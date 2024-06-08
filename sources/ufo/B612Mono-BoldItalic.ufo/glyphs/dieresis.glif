@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresis" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis" format="2">
   <advance width="1300"/>
   <unicode hex="00A8"/>
   <outline>
@@ -20,18 +20,23 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="15" ppm2="15"/>
-          <ttc code="mdeltah" delta="1" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="8" point="mh03" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="6" point="mh03" ppm1="12" ppm2="12"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc code="singlev" point1="av01" point2="mh01"/>
-          <ttc code="singlev" point1="mh01" point2="sv01" stem="Y: 171"/>
-          <ttc code="singlev" point1="av02" point2="mh02"/>
-          <ttc code="singlev" point1="mh02" point2="sv02" stem="Y: 171"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlpMHlJaUJ3Y0cweFBTSXhOU0lnY0hCdE1qMG
+      lNVFVpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbTF
+      vTURJaUlHUmxiSFJoUFNJeElpQndjRzB4UFNJeE15SWdjSEJ0TWowaU1UTWlMejRLSUNB
+      Z0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUltMW9NRE1pSUdSbGJIU
+      mhQU0k0SWlCd2NHMHhQU0l4TXlJZ2NIQnRNajBpTVRNaUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaWJXUmxiSFJoYUNJZ2NHOXBiblE5SW0xb01ETWlJR1JsYkhSaFBTSTJJaUJ3Y0c
+      weFBTSXhNaUlnY0hCdE1qMGlNVElpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd4cFoy
+      NTJJaUJ3YjJsdWREMGlZWFl3TVNJZ1lXeHBaMjQ5SW5KdmRXNWtJaTgrQ2lBZ0lDQThkS
+      FJqSUdOdlpHVTlJbUZzYVdkdWRpSWdjRzlwYm5ROUltRjJNRElpSUdGc2FXZHVQU0p5Yj
+      NWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUl
+      tRjJNREVpSUhCdmFXNTBNajBpYldnd01TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnph
+      VzVuYkdWMklpQndiMmx1ZERFOUltMW9NREVpSUhCdmFXNTBNajBpYzNZd01TSWdjM1JsY
+      lQwaVdUb2dNVGN4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdm
+      FXNTBNVDBpWVhZd01pSWdjRzlwYm5ReVBTSnRhREF5SWk4K0NpQWdJQ0E4ZEhSaklHTnZ
+      aR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpYldnd01pSWdjRzlwYm5ReVBTSnpkakF5
+      SWlCemRHVnRQU0paT2lBeE56RWlMejRLSUNBOEwzUjBVSEp2WjNKaGJUNEs=
       </data>
     </dict>
   </lib>

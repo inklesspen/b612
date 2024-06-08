@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Alpha" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alpha" format="2">
   <advance width="1300"/>
   <unicode hex="0391"/>
   <outline>
@@ -24,33 +24,46 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="ab01">
-            <hstem pos="19" width="-21"/>
-            <hstem pos="407" width="280"/>
-            <hstem pos="1518" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ab01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 19 -21</string>
+              <string>hstem 407 280</string>
+              <string>hstem 1518 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="-1" point="mh01" ppm1="20" ppm2="20"/>
-          <ttc code="mdeltah" delta="1" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01"/>
-          <ttc code="singlev" point1="av01" point2="sv02"/>
-          <ttc code="mdeltav" delta="-3" point="mv01" ppm1="20" ppm2="20"/>
-          <ttc code="mdeltav" delta="-8" point="mv01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="8" point="mh01" ppm1="20" ppm2="20"/>
-          <ttc code="mdeltav" delta="3" point="mh01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="8" point="mh02" ppm1="20" ppm2="20"/>
-          <ttc code="mdeltav" delta="7" point="mh02" ppm1="13" ppm2="13"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlpMHhJaUJ3Y0cweFBTSXlNQ0lnY0hCdE1qMG
+      lNakFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbTF
+      vTURJaUlHUmxiSFJoUFNJeElpQndjRzB4UFNJeE15SWdjSEJ0TWowaU1UTWlMejRLSUNB
+      Z0lEeDBkR01nWTI5a1pUMGlZV3hwWjI1MklpQndiMmx1ZEQwaVlYWXdNU0lnWVd4cFoyN
+      DlJbkp2ZFc1a0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltRnNhV2R1ZENJZ2NHOXBibl
+      E5SW1GME1ERWlJSHB2Ym1VOUluUTZJREVpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWVd
+      4cFoyNWlJaUJ3YjJsdWREMGlZV0l3TVNJZ2VtOXVaVDBpWWpvZ01DSXZQZ29nSUNBZ1BI
+      UjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUltRmlNREVpSUhCdmFXNTBNa
+      jBpYzNZd01TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZE
+      RFOUltRjJNREVpSUhCdmFXNTBNajBpYzNZd01pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFB
+      TSnRaR1ZzZEdGMklpQndiMmx1ZEQwaWJYWXdNU0lnWkdWc2RHRTlJaTB6SWlCd2NHMHhQ
+      U0l5TUNJZ2NIQnRNajBpTWpBaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoZ
+      GlJZ2NHOXBiblE5SW0xMk1ERWlJR1JsYkhSaFBTSXRPQ0lnY0hCdE1UMGlNVE1pSUhCd2
+      JUSTlJakV6SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZWFlpSUhCdmFXNTB
+      QU0p0YURBeElpQmtaV3gwWVQwaU9DSWdjSEJ0TVQwaU1qQWlJSEJ3YlRJOUlqSXdJaTgr
+      Q2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlYWWlJSEJ2YVc1MFBTSnRhREF4SWlCa
+      1pXeDBZVDBpTXlJZ2NIQnRNVDBpTVRNaUlIQndiVEk5SWpFeklpOCtDaUFnSUNBOGRIUm
+      pJR052WkdVOUltMWtaV3gwWVhZaUlIQnZhVzUwUFNKdGFEQXlJaUJrWld4MFlUMGlPQ0l
+      nY0hCdE1UMGlNakFpSUhCd2JUSTlJakl3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0x
+      a1pXeDBZWFlpSUhCdmFXNTBQU0p0YURBeUlpQmtaV3gwWVQwaU55SWdjSEJ0TVQwaU1UT
+      WlJSEJ3YlRJOUlqRXpJaTgrQ2lBZ1BDOTBkRkJ5YjJkeVlXMCtDZz09
       </data>
     </dict>
   </lib>

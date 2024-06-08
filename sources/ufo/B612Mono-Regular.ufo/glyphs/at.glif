@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="at" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="at" format="2">
   <advance width="1300"/>
   <unicode hex="0040"/>
   <outline>
@@ -143,9 +143,9 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="2" point="mh01" ppm1="26" ppm2="26"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqSWlJSEJ3YlRFOUlqSTJJaUJ3Y0cweVBTSX
+      lOaUl2UGdvZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

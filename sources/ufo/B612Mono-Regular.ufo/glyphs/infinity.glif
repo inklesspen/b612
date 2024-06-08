@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="infinity" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="infinity" format="2">
   <advance width="1300"/>
   <unicode hex="221E"/>
   <outline>
@@ -97,20 +97,28 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="alignh" point="ah02"/>
-          <ttc code="singleh" point1="ah01" point2="sh01" stem="X: 176"/>
-          <ttc code="singleh" point1="ah02" point2="sh02" stem="X: 176"/>
-          <ttc code="doublev" point1="dv01" point2="dv02" stem="Y: 144"/>
-          <ttc code="doublev" point1="dv03" point2="dv04" stem="Y: 144"/>
-          <ttc code="doublev" point1="dv05" point2="dv06" stem="Y: 144"/>
-          <ttc code="doublev" point1="dv07" point2="dv08" stem="Y: 144"/>
-          <ttc code="interpolatev" point="iv01" point1="dv03" point2="dv06"/>
-          <ttc code="interpolatev" point="ah01" point1="dv03" point2="dv06"/>
-          <ttc code="interpolatev" point="ah02" point1="dv01" point2="dv08"/>
-          <ttc code="interpolatev" point="iv02" point1="dv01" point2="dv08"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNW9JaUJ3YjJsdWREMGlZV2d3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pXZ2lJSEJ2YVc1ME1UMGlZV2d3TVNJ
+      Z2NHOXBiblF5UFNKemFEQXhJaUJ6ZEdWdFBTSllPaUF4TnpZaUx6NEtJQ0FnSUR4MGRHT
+      WdZMjlrWlQwaWMybHVaMnhsYUNJZ2NHOXBiblF4UFNKaGFEQXlJaUJ3YjJsdWRESTlJbk
+      5vTURJaUlITjBaVzA5SWxnNklERTNOaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0prYjN
+      WaWJHVjJJaUJ3YjJsdWRERTlJbVIyTURFaUlIQnZhVzUwTWowaVpIWXdNaUlnYzNSbGJU
+      MGlXVG9nTVRRMElpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltUnZkV0pzWlhZaUlIQnZhV
+      zUwTVQwaVpIWXdNeUlnY0c5cGJuUXlQU0prZGpBMElpQnpkR1Z0UFNKWk9pQXhORFFpTH
+      o0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWkc5MVlteGxkaUlnY0c5cGJuUXhQU0prZGpBMUl
+      pQndiMmx1ZERJOUltUjJNRFlpSUhOMFpXMDlJbGs2SURFME5DSXZQZ29nSUNBZ1BIUjBZ
+      eUJqYjJSbFBTSmtiM1ZpYkdWMklpQndiMmx1ZERFOUltUjJNRGNpSUhCdmFXNTBNajBpW
+      khZd09DSWdjM1JsYlQwaVdUb2dNVFEwSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdW
+      RHVnljRzlzWVhSbGRpSWdjRzlwYm5ROUltbDJNREVpSUhCdmFXNTBNVDBpWkhZd015SWd
+      jRzlwYm5ReVBTSmtkakEySWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdWRHVnljRzlz
+      WVhSbGRpSWdjRzlwYm5ROUltRm9NREVpSUhCdmFXNTBNVDBpWkhZd015SWdjRzlwYm5Re
+      VBTSmtkakEySWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdWRHVnljRzlzWVhSbGRpSW
+      djRzlwYm5ROUltRm9NRElpSUhCdmFXNTBNVDBpWkhZd01TSWdjRzlwYm5ReVBTSmtkakE
+      0SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdWRHVnljRzlzWVhSbGRpSWdjRzlwYm5R
+      OUltbDJNRElpSUhCdmFXNTBNVDBpWkhZd01TSWdjRzlwYm5ReVBTSmtkakE0SWk4K0NpQ
+      WdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
     </dict>
   </lib>

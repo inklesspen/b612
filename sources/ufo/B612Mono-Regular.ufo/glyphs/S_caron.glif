@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Scaron" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scaron" format="2">
   <advance width="1300"/>
   <unicode hex="0160"/>
   <outline>
     <contour>
-      <point x="195" y="94" type="qcurve"/>
+      <point x="195" y="94" type="qcurve" name="hr00"/>
       <point x="286" y="244" type="line"/>
       <point x="306" y="231"/>
       <point x="371" y="198"/>
@@ -61,7 +61,7 @@
       <point x="238" y="67"/>
     </contour>
     <contour>
-      <point x="796" y="1600" type="line"/>
+      <point x="796" y="1600" type="line" name="hr01"/>
       <point x="596" y="1620" type="line"/>
       <point x="420" y="1900" type="line" name="at02"/>
       <point x="570" y="1900" type="line"/>
@@ -74,29 +74,185 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList/>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 165</string>
+              <string>hstem 1352 165</string>
+              <string>vstem 169 204</string>
+              <string>vstem 863 204</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1600 20</string>
+              <string>hstem 1879 21</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="lsb"/>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc code="singleh" point1="lsb" point2="sh01"/>
-          <ttc code="singleh" point1="sh01" point2="sh02" stem="X: 208"/>
-          <ttc code="singleh" point1="ah01" point2="sh03" stem="X: 208"/>
-          <ttc code="singleh" point1="sh03" point2="rsb" round="true"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01" stem="Y: 162"/>
-          <ttc code="singlev" point1="at01" point2="sv02" stem="Y: 162"/>
-          <ttc code="interpolatev" point="iv01" point1="sv02" point2="sv01"/>
-          <ttc code="interpolatev" point="iv02" point1="sv01" point2="sv02"/>
-          <ttc code="alignt" point="at02" zone="t: 1"/>
-          <ttc code="alignt" point="at03" zone="t: 1"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0pzYzJJaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUm
+      xQU0poYkdsbmJtZ2lJSEJ2YVc1MFBTSmhhREF4SWlCaGJHbG5iajBpY205MWJtUWlMejR
+      LSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSnNjMklpSUhC
+      dmFXNTBNajBpYzJnd01TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWb0lpQ
+      ndiMmx1ZERFOUluTm9NREVpSUhCdmFXNTBNajBpYzJnd01pSWdjM1JsYlQwaVdEb2dNak
+      E0SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaV2dpSUhCdmFXNTBNVDBpWVd
+      nd01TSWdjRzlwYm5ReVBTSnphREF6SWlCemRHVnRQU0pZT2lBeU1EZ2lMejRLSUNBZ0lE
+      eDBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSnphREF6SWlCd2IybHVkR
+      Ek5SW5KellpSWdjbTkxYm1ROUluUnlkV1VpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWV
+      d4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERvZ01TSXZQZ29nSUNBZ1B
+      IUjBZeUJqYjJSbFBTSmhiR2xuYm1JaUlIQnZhVzUwUFNKaFlqQXhJaUI2YjI1bFBTSmlP
+      aUF3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpW
+      VdJd01TSWdjRzlwYm5ReVBTSnpkakF4SWlCemRHVnRQU0paT2lBeE5qSWlMejRLSUNBZ0
+      lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5ReFBTSmhkREF4SWlCd2IybHV
+      kREk5SW5OMk1ESWlJSE4wWlcwOUlsazZJREUyTWlJdlBnb2dJQ0FnUEhSMFl5QmpiMlJs
+      UFNKcGJuUmxjbkJ2YkdGMFpYWWlJSEJ2YVc1MFBTSnBkakF4SWlCd2IybHVkREU5SW5OM
+      k1ESWlJSEJ2YVc1ME1qMGljM1l3TVNJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKcGJuUm
+      xjbkJ2YkdGMFpYWWlJSEJ2YVc1MFBTSnBkakF5SWlCd2IybHVkREU5SW5OMk1ERWlJSEJ
+      2YVc1ME1qMGljM1l3TWlJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhC
+      dmFXNTBQU0poZERBeUlpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHV
+      TlJbUZzYVdkdWRDSWdjRzlwYm5ROUltRjBNRE1pSUhwdmJtVTlJblE2SURFaUx6NEtJQ0
+      E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
+      <key>com.fontlab.v5.background</key>
+      <dict>
+        <key>data</key>
+        <dict>
+          <key>bytes</key>
+          <array>
+            <integer>0</integer>
+            <integer>108</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>56</integer>
+            <integer>0</integer>
+          </array>
+          <key>extra</key>
+          <array>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>60</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>124</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>194</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>128</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>224</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>112</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>60</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>14</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>7</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>3</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>3</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>7</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>1</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>0</integer>
+            <integer>248</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+            <integer>254</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>255</integer>
+          </array>
+          <key>num_bytes</key>
+          <integer>7</integer>
+        </dict>
+        <key>len</key>
+        <integer>97</integer>
+        <key>origin</key>
+        <array>
+          <integer>-333</integer>
+          <integer>-416</integer>
+        </array>
+        <key>size_pixels</key>
+        <array>
+          <integer>24</integer>
+          <integer>24</integer>
+        </array>
+        <key>size_units</key>
+        <array>
+          <integer>1666</integer>
+          <integer>1583</integer>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

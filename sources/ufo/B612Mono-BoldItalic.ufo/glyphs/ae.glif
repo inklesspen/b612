@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ae" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ae" format="2">
   <advance width="1300"/>
   <unicode hex="00E6"/>
   <outline>
@@ -108,17 +108,23 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="3" point="mh01" ppm1="32" ppm2="32"/>
-          <ttc code="mdeltah" delta="-3" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="-4" point="mh03" ppm1="31" ppm2="31"/>
-          <ttc code="mdeltah" delta="3" point="mh04" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="-3" point="mh05" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="-1" point="mv01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="-8" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="-1" point="mv02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="1" point="mh03" ppm1="31" ppm2="31"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqTWlJSEJ3YlRFOUlqTXlJaUJ3Y0cweVBTSX
+      pNaUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d
+      3TWlJZ1pHVnNkR0U5SWkweklpQndjRzB4UFNJeE15SWdjSEJ0TWowaU1UTWlMejRLSUNB
+      Z0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUltMW9NRE1pSUdSbGJIU
+      mhQU0l0TkNJZ2NIQnRNVDBpTXpFaUlIQndiVEk5SWpNeElpOCtDaUFnSUNBOGRIUmpJR0
+      52WkdVOUltMWtaV3gwWVdnaUlIQnZhVzUwUFNKdGFEQTBJaUJrWld4MFlUMGlNeUlnY0h
+      CdE1UMGlNVE1pSUhCd2JUSTlJakV6SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pX
+      eDBZV2dpSUhCdmFXNTBQU0p0YURBMUlpQmtaV3gwWVQwaUxUTWlJSEJ3YlRFOUlqRXpJa
+      UJ3Y0cweVBTSXhNeUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRjJJaUJ3Yj
+      JsdWREMGliWFl3TVNJZ1pHVnNkR0U5SWkweElpQndjRzB4UFNJeE15SWdjSEJ0TWowaU1
+      UTWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUltMW9N
+      RElpSUdSbGJIUmhQU0l0T0NJZ2NIQnRNVDBpTVRNaUlIQndiVEk5SWpFeklpOCtDaUFnS
+      UNBOGRIUmpJR052WkdVOUltMWtaV3gwWVhZaUlIQnZhVzUwUFNKdGRqQXlJaUJrWld4MF
+      lUMGlMVEVpSUhCd2JURTlJakV6SWlCd2NHMHlQU0l4TXlJdlBnb2dJQ0FnUEhSMFl5Qmp
+      iMlJsUFNKdFpHVnNkR0YySWlCd2IybHVkRDBpYldnd015SWdaR1ZzZEdFOUlqRWlJSEJ3
+      YlRFOUlqTXhJaUJ3Y0cweVBTSXpNU0l2UGdvZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

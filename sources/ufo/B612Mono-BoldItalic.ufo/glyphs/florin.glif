@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="florin" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
   <advance width="1300"/>
   <unicode hex="0192"/>
   <outline>
@@ -59,14 +59,16 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc align="round" code="alignv" point="av03"/>
-          <ttc code="singlev" point1="av03" point2="sv01"/>
-          <ttc code="singlev" point1="sv01" point2="sv02" stem="Y: 171"/>
-          <ttc code="singlev" point1="sv02" point2="sv03"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTJJaUJ3YjJsdWREMGlZWFl3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWRpSWdjRzlwYm5ROUltRjJNRE1pSUdG
+      c2FXZHVQU0p5YjNWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnphVzVuYkdWMklpQ
+      ndiMmx1ZERFOUltRjJNRE1pSUhCdmFXNTBNajBpYzNZd01TSXZQZ29nSUNBZ1BIUjBZeU
+      JqYjJSbFBTSnphVzVuYkdWMklpQndiMmx1ZERFOUluTjJNREVpSUhCdmFXNTBNajBpYzN
+      Zd01pSWdjM1JsYlQwaVdUb2dNVGN4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJt
+      ZHNaWFlpSUhCdmFXNTBNVDBpYzNZd01pSWdjRzlwYm5ReVBTSnpkakF6SWk4K0NpQWdQQ
+      zkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
     </dict>
   </lib>

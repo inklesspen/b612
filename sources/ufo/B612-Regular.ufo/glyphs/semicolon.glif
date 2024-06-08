@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="semicolon" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon" format="2">
   <advance width="500"/>
   <unicode hex="003B"/>
   <outline>
@@ -8,16 +8,22 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="lsb">
-            <hstem pos="277" width="-288"/>
-            <hstem pos="497" width="298"/>
-            <vstem pos="102" width="296"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00-0</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -11 288</string>
+              <string>hstem 497 298</string>
+              <string>vstem 102 296</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

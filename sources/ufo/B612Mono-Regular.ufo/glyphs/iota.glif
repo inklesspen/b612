@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="iota" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iota" format="2">
   <advance width="1300"/>
   <unicode hex="03B9"/>
   <outline>
@@ -28,16 +28,22 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="-15" width="146"/>
-            <hstem pos="1120" width="-20"/>
-            <vstem pos="200" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -15 146</string>
+              <string>hstem 1120 -20</string>
+              <string>vstem 200 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="exclam" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
   <advance width="1300"/>
   <unicode hex="0021"/>
   <outline>
@@ -36,17 +36,22 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="lsb"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="22" ppm2="22"/>
-          <ttc code="singleh" point1="lsb" point2="sh01" round="true"/>
-          <ttc code="singleh" point1="sh01" point2="sh02"/>
-          <ttc code="mdeltah" delta="-1" point="mh02" ppm1="22" ppm2="22"/>
-          <ttc code="mdeltah" delta="-4" point="mh03" ppm1="22" ppm2="22"/>
-          <ttc align="round" code="alignv" point="mh02"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="mdeltav" delta="-2" point="mh02" ppm1="22" ppm2="22"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0pzYzJJaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUm
+      xQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d3TVNJZ1pHVnNkR0U5SWkweUlpQndjRzB
+      4UFNJeU1pSWdjSEJ0TWowaU1qSWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4
+      bGFDSWdjRzlwYm5ReFBTSnNjMklpSUhCdmFXNTBNajBpYzJnd01TSWdjbTkxYm1ROUluU
+      nlkV1VpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYzJsdVoyeGxhQ0lnY0c5cGJuUXhQU0
+      p6YURBeElpQndiMmx1ZERJOUluTm9NRElpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYld
+      SbGJIUmhhQ0lnY0c5cGJuUTlJbTFvTURJaUlHUmxiSFJoUFNJdE1TSWdjSEJ0TVQwaU1q
+      SWlJSEJ3YlRJOUlqSXlJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJS
+      EJ2YVc1MFBTSnRhREF6SWlCa1pXeDBZVDBpTFRRaUlIQndiVEU5SWpJeUlpQndjRzB5UF
+      NJeU1pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5ZaUlIQnZhVzUwUFNKdGF
+      EQXlJaUJoYkdsbmJqMGljbTkxYm1RaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaVlXeHBa
+      MjVpSWlCd2IybHVkRDBpWVdJd01TSWdlbTl1WlQwaVlqb2dNQ0l2UGdvZ0lDQWdQSFIwW
+      XlCamIyUmxQU0p0WkdWc2RHRjJJaUJ3YjJsdWREMGliV2d3TWlJZ1pHVnNkR0U5SWkweU
+      lpQndjRzB4UFNJeU1pSWdjSEJ0TWowaU1qSWlMejRLSUNBOEwzUjBVSEp2WjNKaGJUNEs
+      =
       </data>
     </dict>
   </lib>

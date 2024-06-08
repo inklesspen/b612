@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="indianrupee" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="indianrupee" format="2">
   <advance width="1300"/>
   <unicode hex="20B9"/>
   <outline>
@@ -52,16 +52,22 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="-1" point="mh01" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="3" point="mh02" ppm1="30" ppm2="30"/>
-          <ttc code="mdeltah" delta="2" point="mh02" ppm1="29" ppm2="29"/>
-          <ttc code="mdeltah" delta="3" point="mh03" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltav" delta="4" point="mh03" ppm1="29" ppm2="29"/>
-          <ttc code="mdeltav" delta="3" point="mh03" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltav" delta="-1" point="mv01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="2" point="mv02" ppm1="25" ppm2="25"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlpMHhJaUJ3Y0cweFBTSXlOQ0lnY0hCdE1qMG
+      lNalFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbTF
+      vTURJaUlHUmxiSFJoUFNJeklpQndjRzB4UFNJek1DSWdjSEJ0TWowaU16QWlMejRLSUNB
+      Z0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGFDSWdjRzlwYm5ROUltMW9NRElpSUdSbGJIU
+      mhQU0l5SWlCd2NHMHhQU0l5T1NJZ2NIQnRNajBpTWpraUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaWJXUmxiSFJoYUNJZ2NHOXBiblE5SW0xb01ETWlJR1JsYkhSaFBTSXpJaUJ3Y0c
+      weFBTSXlOQ0lnY0hCdE1qMGlNalFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJI
+      UmhkaUlnY0c5cGJuUTlJbTFvTURNaUlHUmxiSFJoUFNJMElpQndjRzB4UFNJeU9TSWdjS
+      EJ0TWowaU1qa2lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm
+      5ROUltMW9NRE1pSUdSbGJIUmhQU0l6SWlCd2NHMHhQU0l5TkNJZ2NIQnRNajBpTWpRaUx
+      6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoZGlJZ2NHOXBiblE5SW0xMk1ERWlJ
+      R1JsYkhSaFBTSXRNU0lnY0hCdE1UMGlNVE1pSUhCd2JUSTlJakV6SWk4K0NpQWdJQ0E4Z
+      EhSaklHTnZaR1U5SW0xa1pXeDBZWFlpSUhCdmFXNTBQU0p0ZGpBeUlpQmtaV3gwWVQwaU
+      1pSWdjSEJ0TVQwaU1qVWlJSEJ3YlRJOUlqSTFJaTgrQ2lBZ1BDOTBkRkJ5YjJkeVlXMCt
+      DZz09
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Ccedilla" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ccedilla" format="2">
   <advance width="1300"/>
   <unicode hex="00C7"/>
   <outline>
@@ -83,14 +83,16 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc code="alignb" point="ab02" zone="b: 0"/>
-          <ttc code="singlev" point1="ab02" point2="sv01"/>
-          <ttc code="singlev" point1="av01" point2="sv02" stem="Y: 144"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaVlXeHBaMjUySWlCd2IybHVkRDBpWVhZd01TSWdZV3hwWjI0
+      OUluSnZkVzVrSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1Gc2FXZHVZaUlnY0c5cGJuU
+      TlJbUZpTURJaUlIcHZibVU5SW1JNklEQWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMm
+      x1WjJ4bGRpSWdjRzlwYm5ReFBTSmhZakF5SWlCd2IybHVkREk5SW5OMk1ERWlMejRLSUN
+      BZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGRpSWdjRzlwYm5ReFBTSmhkakF4SWlCd2Iy
+      bHVkREk5SW5OMk1ESWlJSE4wWlcwOUlsazZJREUwTkNJdlBnb2dJRHd2ZEhSUWNtOW5jb
+      UZ0UGdvPQ==
       </data>
     </dict>
   </lib>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ffligature" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ffligature" format="2">
   <advance width="1300"/>
   <unicode hex="FB00"/>
   <outline>
@@ -114,12 +114,14 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="-5" point="mh01" ppm1="14" ppm2="14"/>
-          <ttc code="mdeltah" delta="-1" point="mh02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltah" delta="-2" point="mh02" ppm1="14" ppm2="14"/>
-          <ttc code="mdeltav" delta="-1" point="mv01" ppm1="15" ppm2="15"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlpMDFJaUJ3Y0cweFBTSXhOQ0lnY0hCdE1qMG
+      lNVFFpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYldSbGJIUmhhQ0lnY0c5cGJuUTlJbTF
+      vTURJaUlHUmxiSFJoUFNJdE1TSWdjSEJ0TVQwaU1UTWlJSEJ3YlRJOUlqRXpJaTgrQ2lB
+      Z0lDQThkSFJqSUdOdlpHVTlJbTFrWld4MFlXZ2lJSEJ2YVc1MFBTSnRhREF5SWlCa1pXe
+      DBZVDBpTFRJaUlIQndiVEU5SWpFMElpQndjRzB5UFNJeE5DSXZQZ29nSUNBZ1BIUjBZeU
+      JqYjJSbFBTSnRaR1ZzZEdGMklpQndiMmx1ZEQwaWJYWXdNU0lnWkdWc2RHRTlJaTB4SWl
+      Cd2NHMHhQU0l4TlNJZ2NIQnRNajBpTVRVaUx6NEtJQ0E4TDNSMFVISnZaM0poYlQ0Sw==
       </data>
     </dict>
   </lib>

@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="v" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="v" format="2">
   <advance width="1300"/>
   <unicode hex="0076"/>
+  <guideline x="0" y="381" angle="0"/>
   <outline>
     <contour>
       <point x="583" y="700" type="line" name="iv01"/>
@@ -17,46 +18,43 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="iv01">
-            <hstem pos="4" width="-21"/>
-            <hstem pos="1120" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>iv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 4 -21</string>
+              <string>hstem 1120 -20</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc code="singleh" point1="ah01" point2="sh01"/>
-          <ttc code="singleh" point1="sh01" point2="sh02" stem="eq X: dia Lite"/>
-          <ttc code="singleh" point1="ah01" point2="sh03"/>
-          <ttc code="singleh" point1="sh03" point2="sh04" stem="eq X: dia Fat"/>
-          <ttc code="alignt" point="sh03" zone="t: x"/>
-          <ttc code="alignt" point="sh02" zone="t: x"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="interpolatev" point="iv01" point1="sh03" point2="iv02"/>
-          <ttc code="interpolatev" point="ah01" point1="ab01" point2="sh02"/>
-          <ttc code="interpolatev" point="iv03" point1="iv02" point2="sh01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpYzJsdVoyeGxhQ0lnY0c5cGJuUXhQU0poYURBeElpQndiMmx1ZERJOUluTm9NREV
+      pTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpYzJsdVoyeGxhQ0lnY0c5cGJuUXhQU0p6YURB
+      eElpQndiMmx1ZERJOUluTm9NRElpSUhOMFpXMDlJbVZ4SUZnNklHUnBZU0JNYVhSbElpO
+      CtDaUFnSUNBOGRIUmpJR052WkdVOUluTnBibWRzWldnaUlIQnZhVzUwTVQwaVlXZ3dNU0
+      lnY0c5cGJuUXlQU0p6YURBeklpOCtDaUFnSUNBOGRIUmpJR052WkdVOUluTnBibWRzWld
+      naUlIQnZhVzUwTVQwaWMyZ3dNeUlnY0c5cGJuUXlQU0p6YURBMElpQnpkR1Z0UFNKbGNT
+      QllPaUJrYVdFZ1JtRjBJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWRDSWdjR
+      zlwYm5ROUluTm9NRE1pSUhwdmJtVTlJblE2SUhnaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWl
+      QwaVlXeHBaMjUwSWlCd2IybHVkRDBpYzJnd01pSWdlbTl1WlQwaWREb2dlQ0l2UGdvZ0l
+      DQWdQSFIwWXlCamIyUmxQU0poYkdsbmJtSWlJSEJ2YVc1MFBTSmhZakF4SWlCNmIyNWxQ
+      U0ppT2lBd0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltbHVkR1Z5Y0c5c1lYUmxkaUlnY
+      0c5cGJuUTlJbWwyTURFaUlIQnZhVzUwTVQwaWMyZ3dNeUlnY0c5cGJuUXlQU0pwZGpBeU
+      lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltbHVkR1Z5Y0c5c1lYUmxkaUlnY0c5cGJuUTl
+      JbUZvTURFaUlIQnZhVzUwTVQwaVlXSXdNU0lnY0c5cGJuUXlQU0p6YURBeUlpOCtDaUFn
+      SUNBOGRIUmpJR052WkdVOUltbHVkR1Z5Y0c5c1lYUmxkaUlnY0c5cGJuUTlJbWwyTURNa
+      UlIQnZhVzUwTVQwaWFYWXdNaUlnY0c5cGJuUXlQU0p6YURBeElpOCtDaUFnUEM5MGRGQn
+      liMmR5WVcwK0NnPT0=
       </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>381</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

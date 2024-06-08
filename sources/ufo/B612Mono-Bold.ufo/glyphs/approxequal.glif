@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="approxequal" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="approxequal" format="2">
   <advance width="1300"/>
   <unicode hex="2248"/>
   <outline>
     <contour>
-      <point x="1100" y="645" type="line"/>
+      <point x="1100" y="645" type="line" name="hr00"/>
       <point x="1047" y="585"/>
       <point x="932" y="525"/>
       <point x="860" y="525" type="qcurve"/>
@@ -27,16 +27,16 @@
       <point x="571" y="886"/>
       <point x="629" y="863"/>
       <point x="683" y="830"/>
-      <point x="737" y="790"/>
+      <point x="737" y="790" name="hr02"/>
       <point x="791" y="757"/>
       <point x="848" y="734"/>
       <point x="880" y="734" type="qcurve"/>
-      <point x="940" y="734"/>
+      <point x="940" y="734" name="hr01"/>
       <point x="1055" y="778"/>
       <point x="1100" y="817" type="qcurve"/>
     </contour>
     <contour>
-      <point x="1100" y="257" type="line"/>
+      <point x="1100" y="257" type="line" name="hr03"/>
       <point x="1047" y="197"/>
       <point x="932" y="137"/>
       <point x="860" y="137" type="qcurve"/>
@@ -59,21 +59,71 @@
       <point x="571" y="498"/>
       <point x="629" y="475"/>
       <point x="683" y="442"/>
-      <point x="737" y="402"/>
+      <point x="737" y="402" name="hr05"/>
       <point x="791" y="369"/>
       <point x="848" y="346"/>
       <point x="880" y="346" type="qcurve"/>
-      <point x="940" y="346"/>
+      <point x="940" y="346" name="hr04"/>
       <point x="1055" y="390"/>
       <point x="1100" y="429" type="qcurve"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList/>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 676 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 676 210</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 525 209</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr03</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 288 58</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr04</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 288 210</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr05</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 137 209</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

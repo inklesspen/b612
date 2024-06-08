@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="florin" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
   <advance width="1300"/>
   <unicode hex="0192"/>
   <outline>
@@ -62,18 +62,25 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="4" point="mh01" ppm1="24" ppm2="24"/>
-          <ttc code="mdeltah" delta="4" point="mh01" ppm1="30" ppm2="30"/>
-          <ttc code="mdeltah" delta="2" point="mh01" ppm1="19" ppm2="19"/>
-          <ttc code="mdeltah" delta="2" point="mh01" ppm1="35" ppm2="35"/>
-          <ttc code="mdeltav" delta="3" point="mh01" ppm1="29" ppm2="29"/>
-          <ttc code="mdeltav" delta="2" point="mh01" ppm1="30" ppm2="30"/>
-          <ttc code="mdeltav" delta="1" point="mh01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="-3" point="mv01" ppm1="29" ppm2="29"/>
-          <ttc code="mdeltav" delta="-4" point="mv01" ppm1="30" ppm2="30"/>
-          <ttc code="mdeltav" delta="-3" point="mv02" ppm1="13" ppm2="13"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqUWlJSEJ3YlRFOUlqSTBJaUJ3Y0cweVBTSX
+      lOQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGliV2d
+      3TVNJZ1pHVnNkR0U5SWpRaUlIQndiVEU5SWpNd0lpQndjRzB5UFNJek1DSXZQZ29nSUNB
+      Z1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaWJXZ3dNU0lnWkdWc2RHR
+      TlJaklpSUhCd2JURTlJakU1SWlCd2NHMHlQU0l4T1NJdlBnb2dJQ0FnUEhSMFl5QmpiMl
+      JsUFNKdFpHVnNkR0ZvSWlCd2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqSWlJSEJ3YlR
+      FOUlqTTFJaUJ3Y0cweVBTSXpOU0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RH
+      RjJJaUJ3YjJsdWREMGliV2d3TVNJZ1pHVnNkR0U5SWpNaUlIQndiVEU5SWpJNUlpQndjR
+      zB5UFNJeU9TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGMklpQndiMmx1ZE
+      QwaWJXZ3dNU0lnWkdWc2RHRTlJaklpSUhCd2JURTlJak13SWlCd2NHMHlQU0l6TUNJdlB
+      nb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0YySWlCd2IybHVkRDBpYldnd01TSWda
+      R1ZzZEdFOUlqRWlJSEJ3YlRFOUlqRXpJaUJ3Y0cweVBTSXhNeUl2UGdvZ0lDQWdQSFIwW
+      XlCamIyUmxQU0p0WkdWc2RHRjJJaUJ3YjJsdWREMGliWFl3TVNJZ1pHVnNkR0U5SWkwek
+      lpQndjRzB4UFNJeU9TSWdjSEJ0TWowaU1qa2lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGl
+      iV1JsYkhSaGRpSWdjRzlwYm5ROUltMTJNREVpSUdSbGJIUmhQU0l0TkNJZ2NIQnRNVDBp
+      TXpBaUlIQndiVEk5SWpNd0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVhZa
+      UlIQnZhVzUwUFNKdGRqQXlJaUJrWld4MFlUMGlMVE1pSUhCd2JURTlJakV6SWlCd2NHMH
+      lQU0l4TXlJdlBnb2dJRHd2ZEhSUWNtOW5jbUZ0UGdvPQ==
       </data>
     </dict>
   </lib>

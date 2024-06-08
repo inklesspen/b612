@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="acute" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acute" format="2">
   <advance width="1300"/>
   <unicode hex="00B4"/>
   <outline>
@@ -12,29 +12,52 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="sh01">
-            <hstem pos="1520" width="-20"/>
-          </hintset>
-          <hintset pointTag="ah01">
-            <hstem pos="1200" width="310"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1200 310</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>sh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1520 -20</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>ah01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 1200 310</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc code="singleh" point1="ah01" point2="sh01" stem="eq X: dia Fat"/>
-          <ttc code="mdeltah" delta="-7" point="sh01" ppm1="31" ppm2="31"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="14" ppm2="14"/>
-          <ttc code="mdeltah" delta="-2" point="mh01" ppm1="24" ppm2="24"/>
-          <ttc align="round" code="alignv" point="mh01"/>
-          <ttc code="alignt" point="sh01" zone="t: 1"/>
-          <ttc code="alignt" point="ah01" zone="t: 1"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0poYURBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpYzJsdVoyeGxhQ0lnY0c5cGJuUXhQU0poYURBeElpQndiMmx1ZERJOUluTm9NREV
+      pSUhOMFpXMDlJbVZ4SUZnNklHUnBZU0JHWVhRaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQw
+      aWJXUmxiSFJoYUNJZ2NHOXBiblE5SW5Ob01ERWlJR1JsYkhSaFBTSXROeUlnY0hCdE1UM
+      GlNekVpSUhCd2JUSTlJak14SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZV2
+      dpSUhCdmFXNTBQU0p0YURBeElpQmtaV3gwWVQwaUxUSWlJSEJ3YlRFOUlqRTBJaUJ3Y0c
+      weVBTSXhOQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWRE
+      MGliV2d3TVNJZ1pHVnNkR0U5SWkweUlpQndjRzB4UFNJeU5DSWdjSEJ0TWowaU1qUWlMe
+      jRLSUNBZ0lEeDBkR01nWTI5a1pUMGlZV3hwWjI1MklpQndiMmx1ZEQwaWJXZ3dNU0lnWV
+      d4cFoyNDlJbkp2ZFc1a0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltRnNhV2R1ZENJZ2N
+      HOXBiblE5SW5Ob01ERWlJSHB2Ym1VOUluUTZJREVpTHo0S0lDQWdJRHgwZEdNZ1kyOWta
+      VDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZV2d3TVNJZ2VtOXVaVDBpZERvZ01TSXZQZ29nS
+      UR3dmRIUlFjbTluY21GdFBnbz0=
       </data>
     </dict>
   </lib>

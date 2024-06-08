@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="questiondown" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="questiondown" format="2">
   <advance width="1300"/>
   <unicode hex="00BF"/>
   <outline>
@@ -72,17 +72,23 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="-183" width="-234"/>
-            <hstem pos="1117" width="-330"/>
-            <vstem pos="437" width="-341"/>
-            <vstem pos="802" width="-311"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -417 234</string>
+              <string>hstem 787 330</string>
+              <string>vstem 96 341</string>
+              <string>vstem 491 311</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

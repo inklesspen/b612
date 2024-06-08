@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="section" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="section" format="2">
   <advance width="1300"/>
   <unicode hex="00A7"/>
+  <guideline x="850" y="0" angle="90"/>
   <outline>
     <contour>
       <point x="1010" y="1351" type="line"/>
@@ -112,32 +113,20 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignv" point="av01"/>
-          <ttc align="round" code="alignv" point="av02"/>
-          <ttc align="round" code="alignv" point="av03"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="singlev" point1="av02" point2="sv01"/>
-          <ttc code="singlev" point1="av03" point2="sv02"/>
-          <ttc code="interpolatev" point="iv01" point1="at01" point2="iv02"/>
-          <ttc code="interpolatev" point="iv02" point1="iv03" point2="iv01"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibllpSUhCd
+      mFXNTBQU0poZGpBeElpQmhiR2xuYmowaWNtOTFibVFpTHo0S0lDQWdJRHgwZEdNZ1kyOW
+      taVDBpWVd4cFoyNTJJaUJ3YjJsdWREMGlZWFl3TWlJZ1lXeHBaMjQ5SW5KdmRXNWtJaTg
+      rQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbUZzYVdkdWRpSWdjRzlwYm5ROUltRjJNRE1pSUdG
+      c2FXZHVQU0p5YjNWdVpDSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm5RaUlIQ
+      nZhVzUwUFNKaGREQXhJaUI2YjI1bFBTSjBPaUF4SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1
+      U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVhZd01pSWdjRzlwYm5ReVBTSnpkakF4SWk
+      4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWFlpSUhCdmFXNTBNVDBpWVhZd015
+      SWdjRzlwYm5ReVBTSnpkakF5SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdWRHVnljR
+      zlzWVhSbGRpSWdjRzlwYm5ROUltbDJNREVpSUhCdmFXNTBNVDBpWVhRd01TSWdjRzlwYm
+      5ReVBTSnBkakF5SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1sdWRHVnljRzlzWVhSbGR
+      pSWdjRzlwYm5ROUltbDJNRElpSUhCdmFXNTBNVDBpYVhZd015SWdjRzlwYm5ReVBTSnBk
+      akF4SWk4K0NpQWdQQzkwZEZCeWIyZHlZVzArQ2c9PQ==
       </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>90</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>850</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Gamma" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gamma" format="2">
   <advance width="1300"/>
   <unicode hex="0393"/>
   <outline>
@@ -18,13 +18,14 @@
     <dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01"/>
-          <ttc code="singlev" point1="at01" point2="sv02"/>
-          <ttc code="singlev" point1="sv02" point2="sv03" stem="Y: 162"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQXhJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKaFlqQXhJaUJ3YjJs
+      dWRESTlJbk4yTURFaUx6NEtJQ0FnSUR4MGRHTWdZMjlrWlQwaWMybHVaMnhsZGlJZ2NHO
+      XBiblF4UFNKaGREQXhJaUJ3YjJsdWRESTlJbk4yTURJaUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaWMybHVaMnhsZGlJZ2NHOXBiblF4UFNKemRqQXlJaUJ3YjJsdWRESTlJbk4yTUR
+      NaUlITjBaVzA5SWxrNklERTJNaUl2UGdvZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

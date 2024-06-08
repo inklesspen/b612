@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="pi" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi" format="2">
   <advance width="1300"/>
   <unicode hex="03C0"/>
   <outline>
@@ -53,26 +53,33 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="-13" width="146"/>
-            <hstem pos="950" width="150"/>
-            <vstem pos="300" width="180"/>
-            <vstem pos="800" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -13 146</string>
+              <string>hstem 950 150</string>
+              <string>vstem 300 180</string>
+              <string>vstem 800 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: x"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="alignb" point="ab02" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01"/>
-          <ttc code="singlev" point1="at01" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQjRJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdVlpSWdjRzlwYm5ROUltRmlNREVpSUhwdmJtVTlJbUk2SURBaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaVlXeHBaMjVpSWlCd2IybHVkRDBpWVdJd01pSWdlbTl1WlQw
+      aVlqb2dNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVjJJaUJ3YjJsdWRER
+      TlJbUZpTURFaUlIQnZhVzUwTWowaWMzWXdNU0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0
+      p6YVc1bmJHVjJJaUJ3YjJsdWRERTlJbUYwTURFaUlIQnZhVzUwTWowaWMzWXdNaUl2UGd
+      vZ0lEd3ZkSFJRY205bmNtRnRQZ289
       </data>
     </dict>
   </lib>

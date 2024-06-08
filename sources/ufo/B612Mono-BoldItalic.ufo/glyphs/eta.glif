@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eta" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eta" format="2">
   <advance width="1300"/>
   <unicode hex="03B7"/>
   <outline>
@@ -32,28 +32,35 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="sv01">
-            <hstem pos="-379" width="-21"/>
-            <hstem pos="21" width="-21"/>
-            <hstem pos="978" width="142"/>
-            <vstem pos="200" width="180"/>
-            <vstem pos="820" width="180"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>sv01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -379 -21</string>
+              <string>hstem 21 -21</string>
+              <string>hstem 978 142</string>
+              <string>vstem 200 180</string>
+              <string>vstem 820 180</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: x"/>
-          <ttc code="alignt" point="at02" zone="t: x"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="alignb" point="ab02" zone="b: -500"/>
-          <ttc code="singlev" point1="ab01" point2="sv01"/>
-          <ttc code="singlev" point1="ab02" point2="sv02"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQjRJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdWRDSWdjRzlwYm5ROUltRjBNRElpSUhwdmJtVTlJblE2SUhnaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaVlXeHBaMjVpSWlCd2IybHVkRDBpWVdJd01TSWdlbTl1WlQw
+      aVlqb2dNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0poYkdsbmJtSWlJSEJ2YVc1MFBTS
+      mhZakF5SWlCNmIyNWxQU0ppT2lBdE5UQXdJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbk
+      5wYm1kc1pYWWlJSEJ2YVc1ME1UMGlZV0l3TVNJZ2NHOXBiblF5UFNKemRqQXhJaTgrQ2l
+      BZ0lDQThkSFJqSUdOdlpHVTlJbk5wYm1kc1pYWWlJSEJ2YVc1ME1UMGlZV0l3TWlJZ2NH
+      OXBiblF5UFNKemRqQXlJaTgrQ2lBZ1BDOTBkRkJ5YjJkeVlXMCtDZz09
       </data>
     </dict>
   </lib>

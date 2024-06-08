@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="onequarter" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onequarter" format="2">
   <advance width="1300"/>
   <unicode hex="00BC"/>
   <outline>
     <contour>
-      <point x="261" y="0" type="line"/>
+      <point x="261" y="0" type="line" name="hr00"/>
       <point x="76" y="0" type="line"/>
       <point x="1116" y="1500" type="line"/>
       <point x="1292" y="1500" type="line"/>
@@ -45,22 +45,42 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="720" width="80"/>
-            <hstem pos="1480" width="-10"/>
-            <vstem pos="333" width="105"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="10" width="-10"/>
-            <hstem pos="150" width="80"/>
-            <hstem pos="760" width="-10"/>
-            <vstem pos="962" width="105"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 18</string>
+              <string>hstem 1482 18</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 720 80</string>
+              <string>hstem 1470 10</string>
+              <string>vstem 333 105</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hr02</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 10</string>
+              <string>hstem 150 80</string>
+              <string>hstem 750 10</string>
+              <string>vstem 962 105</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>

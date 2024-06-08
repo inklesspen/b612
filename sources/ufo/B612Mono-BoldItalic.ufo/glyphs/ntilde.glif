@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ntilde" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ntilde" format="2">
   <advance width="1300"/>
   <unicode hex="00F1"/>
   <outline>
@@ -67,26 +67,33 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="20" width="-21"/>
-            <hstem pos="892" width="224"/>
-            <vstem pos="134" width="326"/>
-            <vstem pos="702" width="327"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 20 -21</string>
+              <string>hstem 892 224</string>
+              <string>vstem 134 326</string>
+              <string>vstem 702 327</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="alignt" point="at01" zone="t: x"/>
-          <ttc code="alignt" point="at02" zone="t: x"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="ab01" point2="sv01"/>
-          <ttc code="mdeltav" delta="2" point="mv01" ppm1="21" ppm2="21"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5iblFpSUhCd
+      mFXNTBQU0poZERBeElpQjZiMjVsUFNKME9pQjRJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVT
+      lJbUZzYVdkdWRDSWdjRzlwYm5ROUltRjBNRElpSUhwdmJtVTlJblE2SUhnaUx6NEtJQ0F
+      nSUR4MGRHTWdZMjlrWlQwaVlXeHBaMjVpSWlCd2IybHVkRDBpWVdJd01TSWdlbTl1WlQw
+      aVlqb2dNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p6YVc1bmJHVjJJaUJ3YjJsdWRER
+      TlJbUZpTURFaUlIQnZhVzUwTWowaWMzWXdNU0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0
+      p0WkdWc2RHRjJJaUJ3YjJsdWREMGliWFl3TVNJZ1pHVnNkR0U5SWpJaUlIQndiVEU5SWp
+      JeElpQndjRzB5UFNJeU1TSXZQZ29nSUR3dmRIUlFjbTluY21GdFBnbz0=
       </data>
     </dict>
   </lib>

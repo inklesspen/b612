@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="S" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="S" format="2">
   <advance width="1100"/>
   <unicode hex="0053"/>
   <outline>
@@ -62,73 +62,117 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="fh01">
-            <hstem pos="-17" width="165"/>
-            <hstem pos="1352" width="165"/>
-            <vstem pos="111" width="204"/>
-            <vstem pos="805" width="204"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>fh01</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -17 165</string>
+              <string>hstem 1352 165</string>
+              <string>vstem 111 204</string>
+              <string>vstem 805 204</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc align="round" code="alignh" point="lsb"/>
-          <ttc align="round" code="alignh" point="ah01"/>
-          <ttc align="round" code="singleh" point1="lsb" point2="sh01"/>
-          <ttc code="singleh" point1="sh01" point2="sh02" stem="X: 208"/>
-          <ttc code="mdeltah" delta="-1" point="sh02" ppm1="17" ppm2="17"/>
-          <ttc code="mdeltah" delta="-2" point="sh02" ppm1="9" ppm2="15"/>
-          <ttc code="mdeltah" delta="-3" point="sh02" ppm1="16" ppm2="16"/>
-          <ttc code="mdeltah" delta="3" point="ah01" ppm1="16" ppm2="17"/>
-          <ttc code="mdeltah" delta="2" point="ah01" ppm1="9" ppm2="15"/>
-          <ttc code="singleh" point1="ah01" point2="sh03" stem="X: 208"/>
-          <ttc code="singleh" point1="sh03" point2="rsb" round="true"/>
-          <ttc code="alignt" point="at01" zone="t: 1"/>
-          <ttc code="alignb" point="ab01" zone="b: 0"/>
-          <ttc code="singlev" point1="at01" point2="sv01" stem="Y: 162"/>
-          <ttc code="mdeltav" delta="2" point="sv01" ppm1="16" ppm2="17"/>
-          <ttc code="mdeltav" delta="1" point="sv01" ppm1="9" ppm2="15"/>
-          <ttc code="singlev" point1="ab01" point2="sv02" stem="Y: 162"/>
-          <ttc code="mdeltav" delta="-1" point="sv02" ppm1="9" ppm2="15"/>
-          <ttc code="mdeltav" delta="-2" point="sv02" ppm1="16" ppm2="17"/>
-          <ttc code="interpolatev" point="iv01" point1="sv01" point2="sv02"/>
-          <ttc code="interpolatev" point="iv02" point1="sv02" point2="sv01"/>
-          <ttc code="fdeltah" delta="3" point="fh01" ppm1="19" ppm2="19"/>
-          <ttc code="fdeltah" delta="2" point="fh02" ppm1="17" ppm2="17"/>
-          <ttc code="fdeltah" delta="2" point="fh02" ppm1="21" ppm2="22"/>
-          <ttc code="fdeltah" delta="4" point="fh02" ppm1="43" ppm2="43"/>
-          <ttc code="fdeltah" delta="5" point="fh02" ppm1="19" ppm2="19"/>
-          <ttc code="fdeltah" delta="5" point="fh02" ppm1="30" ppm2="30"/>
-          <ttc code="fdeltah" delta="5" point="fh02" ppm1="32" ppm2="32"/>
-          <ttc code="fdeltah" delta="7" point="fh02" ppm1="18" ppm2="18"/>
-          <ttc code="fdeltah" delta="7" point="fh02" ppm1="28" ppm2="28"/>
-          <ttc code="fdeltah" delta="7" point="fh02" ppm1="31" ppm2="31"/>
-          <ttc code="fdeltah" delta="8" point="fh02" ppm1="13" ppm2="13"/>
-          <ttc code="fdeltah" delta="-6" point="fh03" ppm1="19" ppm2="19"/>
-          <ttc code="fdeltah" delta="-2" point="fh03" ppm1="13" ppm2="13"/>
-          <ttc code="fdeltah" delta="3" point="fh03" ppm1="34" ppm2="34"/>
-          <ttc code="fdeltah" delta="4" point="fh03" ppm1="32" ppm2="32"/>
-          <ttc code="fdeltah" delta="-1" point="fh04" ppm1="20" ppm2="20"/>
-          <ttc code="fdeltah" delta="-8" point="fh05" ppm1="18" ppm2="18"/>
-          <ttc code="fdeltah" delta="-3" point="fh05" ppm1="20" ppm2="21"/>
-          <ttc code="fdeltah" delta="-2" point="fh05" ppm1="19" ppm2="19"/>
-          <ttc code="fdeltah" delta="-2" point="fh05" ppm1="22" ppm2="22"/>
-          <ttc code="fdeltav" delta="-4" point="fh01" ppm1="18" ppm2="18"/>
-          <ttc code="fdeltav" delta="-1" point="fh01" ppm1="19" ppm2="19"/>
-          <ttc code="fdeltav" delta="-2" point="fh02" ppm1="13" ppm2="13"/>
-          <ttc code="fdeltav" delta="1" point="fh02" ppm1="17" ppm2="17"/>
-          <ttc code="fdeltav" delta="1" point="fh02" ppm1="43" ppm2="43"/>
-          <ttc code="fdeltav" delta="-4" point="fh03" ppm1="32" ppm2="32"/>
-          <ttc code="fdeltav" delta="-1" point="fh03" ppm1="13" ppm2="13"/>
-          <ttc code="fdeltav" delta="-1" point="fh03" ppm1="34" ppm2="34"/>
-          <ttc code="fdeltav" delta="2" point="fh03" ppm1="19" ppm2="19"/>
-          <ttc code="fdeltav" delta="-2" point="fh04" ppm1="20" ppm2="20"/>
-          <ttc code="fdeltav" delta="-2" point="fh05" ppm1="18" ppm2="18"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKaGJHbG5ibWdpSUhCd
+      mFXNTBQU0pzYzJJaUlHRnNhV2R1UFNKeWIzVnVaQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUm
+      xQU0poYkdsbmJtZ2lJSEJ2YVc1MFBTSmhhREF4SWlCaGJHbG5iajBpY205MWJtUWlMejR
+      LSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSnNjMklpSUhC
+      dmFXNTBNajBpYzJnd01TSWdZV3hwWjI0OUluSnZkVzVrSWk4K0NpQWdJQ0E4ZEhSaklHT
+      nZaR1U5SW5OcGJtZHNaV2dpSUhCdmFXNTBNVDBpYzJnd01TSWdjRzlwYm5ReVBTSnphRE
+      F5SWlCemRHVnRQU0pZT2lBeU1EZ2lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkh
+      SaGFDSWdjRzlwYm5ROUluTm9NRElpSUdSbGJIUmhQU0l0TVNJZ2NIQnRNVDBpTVRjaUlI
+      QndiVEk5SWpFM0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwWVdnaUlIQnZhV
+      zUwUFNKemFEQXlJaUJrWld4MFlUMGlMVElpSUhCd2JURTlJamtpSUhCd2JUSTlJakUxSW
+      k4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZV2dpSUhCdmFXNTBQU0p6YURBeUl
+      pQmtaV3gwWVQwaUxUTWlJSEJ3YlRFOUlqRTJJaUJ3Y0cweVBTSXhOaUl2UGdvZ0lDQWdQ
+      SFIwWXlCamIyUmxQU0p0WkdWc2RHRm9JaUJ3YjJsdWREMGlZV2d3TVNJZ1pHVnNkR0U5S
+      WpNaUlIQndiVEU5SWpFMklpQndjRzB5UFNJeE55SXZQZ29nSUNBZ1BIUjBZeUJqYjJSbF
+      BTSnRaR1ZzZEdGb0lpQndiMmx1ZEQwaVlXZ3dNU0lnWkdWc2RHRTlJaklpSUhCd2JURTl
+      JamtpSUhCd2JUSTlJakUxSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaV2dp
+      SUhCdmFXNTBNVDBpWVdnd01TSWdjRzlwYm5ReVBTSnphREF6SWlCemRHVnRQU0pZT2lBe
+      U1EZ2lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGljMmx1WjJ4bGFDSWdjRzlwYm5ReFBTSn
+      phREF6SWlCd2IybHVkREk5SW5KellpSWdjbTkxYm1ROUluUnlkV1VpTHo0S0lDQWdJRHg
+      wZEdNZ1kyOWtaVDBpWVd4cFoyNTBJaUJ3YjJsdWREMGlZWFF3TVNJZ2VtOXVaVDBpZERv
+      Z01TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSmhiR2xuYm1JaUlIQnZhVzUwUFNKaFlqQ
+      XhJaUI2YjI1bFBTSmlPaUF3SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW5OcGJtZHNaWF
+      lpSUhCdmFXNTBNVDBpWVhRd01TSWdjRzlwYm5ReVBTSnpkakF4SWlCemRHVnRQU0paT2l
+      BeE5qSWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGliV1JsYkhSaGRpSWdjRzlwYm5ROUlu
+      TjJNREVpSUdSbGJIUmhQU0l5SWlCd2NHMHhQU0l4TmlJZ2NIQnRNajBpTVRjaUx6NEtJQ
+      0FnSUR4MGRHTWdZMjlrWlQwaWJXUmxiSFJoZGlJZ2NHOXBiblE5SW5OMk1ERWlJR1JsYk
+      hSaFBTSXhJaUJ3Y0cweFBTSTVJaUJ3Y0cweVBTSXhOU0l2UGdvZ0lDQWdQSFIwWXlCamI
+      yUmxQU0p6YVc1bmJHVjJJaUJ3YjJsdWRERTlJbUZpTURFaUlIQnZhVzUwTWowaWMzWXdN
+      aUlnYzNSbGJUMGlXVG9nTVRZeUlpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltMWtaV3gwW
+      VhZaUlIQnZhVzUwUFNKemRqQXlJaUJrWld4MFlUMGlMVEVpSUhCd2JURTlJamtpSUhCd2
+      JUSTlJakUxSWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW0xa1pXeDBZWFlpSUhCdmFXNTB
+      QU0p6ZGpBeUlpQmtaV3gwWVQwaUxUSWlJSEJ3YlRFOUlqRTJJaUJ3Y0cweVBTSXhOeUl2
+      UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0pwYm5SbGNuQnZiR0YwWlhZaUlIQnZhVzUwUFNKc
+      GRqQXhJaUJ3YjJsdWRERTlJbk4yTURFaUlIQnZhVzUwTWowaWMzWXdNaUl2UGdvZ0lDQW
+      dQSFIwWXlCamIyUmxQU0pwYm5SbGNuQnZiR0YwWlhZaUlIQnZhVzUwUFNKcGRqQXlJaUJ
+      3YjJsdWRERTlJbk4yTURJaUlIQnZhVzUwTWowaWMzWXdNU0l2UGdvZ0lDQWdQSFIwWXlC
+      amIyUmxQU0ptWkdWc2RHRm9JaUJ3YjJsdWREMGlabWd3TVNJZ1pHVnNkR0U5SWpNaUlIQ
+      ndiVEU5SWpFNUlpQndjRzB5UFNJeE9TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSm1aR1
+      ZzZEdGb0lpQndiMmx1ZEQwaVptZ3dNaUlnWkdWc2RHRTlJaklpSUhCd2JURTlJakUzSWl
+      Cd2NHMHlQU0l4TnlJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKbVpHVnNkR0ZvSWlCd2Iy
+      bHVkRDBpWm1nd01pSWdaR1ZzZEdFOUlqSWlJSEJ3YlRFOUlqSXhJaUJ3Y0cweVBTSXlNa
+      Ul2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0ptWkdWc2RHRm9JaUJ3YjJsdWREMGlabWd3TW
+      lJZ1pHVnNkR0U5SWpRaUlIQndiVEU5SWpReklpQndjRzB5UFNJME15SXZQZ29nSUNBZ1B
+      IUjBZeUJqYjJSbFBTSm1aR1ZzZEdGb0lpQndiMmx1ZEQwaVptZ3dNaUlnWkdWc2RHRTlJ
+      alVpSUhCd2JURTlJakU1SWlCd2NHMHlQU0l4T1NJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsU
+      FNKbVpHVnNkR0ZvSWlCd2IybHVkRDBpWm1nd01pSWdaR1ZzZEdFOUlqVWlJSEJ3YlRFOU
+      lqTXdJaUJ3Y0cweVBTSXpNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0ptWkdWc2RHRm9
+      JaUJ3YjJsdWREMGlabWd3TWlJZ1pHVnNkR0U5SWpVaUlIQndiVEU5SWpNeUlpQndjRzB5
+      UFNJek1pSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSm1aR1ZzZEdGb0lpQndiMmx1ZEQwa
+      VptZ3dNaUlnWkdWc2RHRTlJamNpSUhCd2JURTlJakU0SWlCd2NHMHlQU0l4T0NJdlBnb2
+      dJQ0FnUEhSMFl5QmpiMlJsUFNKbVpHVnNkR0ZvSWlCd2IybHVkRDBpWm1nd01pSWdaR1Z
+      zZEdFOUlqY2lJSEJ3YlRFOUlqSTRJaUJ3Y0cweVBTSXlPQ0l2UGdvZ0lDQWdQSFIwWXlC
+      amIyUmxQU0ptWkdWc2RHRm9JaUJ3YjJsdWREMGlabWd3TWlJZ1pHVnNkR0U5SWpjaUlIQ
+      ndiVEU5SWpNeElpQndjRzB5UFNJek1TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSm1aR1
+      ZzZEdGb0lpQndiMmx1ZEQwaVptZ3dNaUlnWkdWc2RHRTlJamdpSUhCd2JURTlJakV6SWl
+      Cd2NHMHlQU0l4TXlJdlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKbVpHVnNkR0ZvSWlCd2Iy
+      bHVkRDBpWm1nd015SWdaR1ZzZEdFOUlpMDJJaUJ3Y0cweFBTSXhPU0lnY0hCdE1qMGlNV
+      GtpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWm1SbGJIUmhhQ0lnY0c5cGJuUTlJbVpvTU
+      RNaUlHUmxiSFJoUFNJdE1pSWdjSEJ0TVQwaU1UTWlJSEJ3YlRJOUlqRXpJaTgrQ2lBZ0l
+      DQThkSFJqSUdOdlpHVTlJbVprWld4MFlXZ2lJSEJ2YVc1MFBTSm1hREF6SWlCa1pXeDBZ
+      VDBpTXlJZ2NIQnRNVDBpTXpRaUlIQndiVEk5SWpNMElpOCtDaUFnSUNBOGRIUmpJR052W
+      kdVOUltWmtaV3gwWVdnaUlIQnZhVzUwUFNKbWFEQXpJaUJrWld4MFlUMGlOQ0lnY0hCdE
+      1UMGlNeklpSUhCd2JUSTlJak15SWk4K0NpQWdJQ0E4ZEhSaklHTnZaR1U5SW1aa1pXeDB
+      ZV2dpSUhCdmFXNTBQU0ptYURBMElpQmtaV3gwWVQwaUxURWlJSEJ3YlRFOUlqSXdJaUJ3
+      Y0cweVBTSXlNQ0l2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0ptWkdWc2RHRm9JaUJ3YjJsd
+      WREMGlabWd3TlNJZ1pHVnNkR0U5SWkwNElpQndjRzB4UFNJeE9DSWdjSEJ0TWowaU1UZ2
+      lMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGlabVJsYkhSaGFDSWdjRzlwYm5ROUltWm9NRFV
+      pSUdSbGJIUmhQU0l0TXlJZ2NIQnRNVDBpTWpBaUlIQndiVEk5SWpJeElpOCtDaUFnSUNB
+      OGRIUmpJR052WkdVOUltWmtaV3gwWVdnaUlIQnZhVzUwUFNKbWFEQTFJaUJrWld4MFlUM
+      GlMVElpSUhCd2JURTlJakU1SWlCd2NHMHlQU0l4T1NJdlBnb2dJQ0FnUEhSMFl5QmpiMl
+      JsUFNKbVpHVnNkR0ZvSWlCd2IybHVkRDBpWm1nd05TSWdaR1ZzZEdFOUlpMHlJaUJ3Y0c
+      weFBTSXlNaUlnY0hCdE1qMGlNaklpTHo0S0lDQWdJRHgwZEdNZ1kyOWtaVDBpWm1SbGJI
+      UmhkaUlnY0c5cGJuUTlJbVpvTURFaUlHUmxiSFJoUFNJdE5DSWdjSEJ0TVQwaU1UZ2lJS
+      EJ3YlRJOUlqRTRJaTgrQ2lBZ0lDQThkSFJqSUdOdlpHVTlJbVprWld4MFlYWWlJSEJ2YV
+      c1MFBTSm1hREF4SWlCa1pXeDBZVDBpTFRFaUlIQndiVEU5SWpFNUlpQndjRzB5UFNJeE9
+      TSXZQZ29nSUNBZ1BIUjBZeUJqYjJSbFBTSm1aR1ZzZEdGMklpQndiMmx1ZEQwaVptZ3dN
+      aUlnWkdWc2RHRTlJaTB5SWlCd2NHMHhQU0l4TXlJZ2NIQnRNajBpTVRNaUx6NEtJQ0FnS
+      UR4MGRHTWdZMjlrWlQwaVptUmxiSFJoZGlJZ2NHOXBiblE5SW1ab01ESWlJR1JsYkhSaF
+      BTSXhJaUJ3Y0cweFBTSXhOeUlnY0hCdE1qMGlNVGNpTHo0S0lDQWdJRHgwZEdNZ1kyOWt
+      aVDBpWm1SbGJIUmhkaUlnY0c5cGJuUTlJbVpvTURJaUlHUmxiSFJoUFNJeElpQndjRzB4
+      UFNJME15SWdjSEJ0TWowaU5ETWlMejRLSUNBZ0lEeDBkR01nWTI5a1pUMGlabVJsYkhSa
+      GRpSWdjRzlwYm5ROUltWm9NRE1pSUdSbGJIUmhQU0l0TkNJZ2NIQnRNVDBpTXpJaUlIQn
+      diVEk5SWpNeUlpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltWmtaV3gwWVhZaUlIQnZhVzU
+      wUFNKbWFEQXpJaUJrWld4MFlUMGlMVEVpSUhCd2JURTlJakV6SWlCd2NHMHlQU0l4TXlJ
+      dlBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKbVpHVnNkR0YySWlCd2IybHVkRDBpWm1nd015S
+      WdaR1ZzZEdFOUlpMHhJaUJ3Y0cweFBTSXpOQ0lnY0hCdE1qMGlNelFpTHo0S0lDQWdJRH
+      gwZEdNZ1kyOWtaVDBpWm1SbGJIUmhkaUlnY0c5cGJuUTlJbVpvTURNaUlHUmxiSFJoUFN
+      JeUlpQndjRzB4UFNJeE9TSWdjSEJ0TWowaU1Ua2lMejRLSUNBZ0lEeDBkR01nWTI5a1pU
+      MGlabVJsYkhSaGRpSWdjRzlwYm5ROUltWm9NRFFpSUdSbGJIUmhQU0l0TWlJZ2NIQnRNV
+      DBpTWpBaUlIQndiVEk5SWpJd0lpOCtDaUFnSUNBOGRIUmpJR052WkdVOUltWmtaV3gwWV
+      hZaUlIQnZhVzUwUFNKbWFEQTFJaUJrWld4MFlUMGlMVElpSUhCd2JURTlJakU0SWlCd2N
+      HMHlQU0l4T0NJdlBnb2dJRHd2ZEhSUWNtOW5jbUZ0UGdvPQ==
       </data>
     </dict>
   </lib>

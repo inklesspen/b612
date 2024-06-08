@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="indianrupee" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="indianrupee" format="2">
   <advance width="1300"/>
   <unicode hex="20B9"/>
   <outline>
@@ -50,24 +50,32 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="21" width="-21"/>
-            <hstem pos="959" width="210"/>
-            <hstem pos="1292" width="208"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 21 -21</string>
+              <string>hstem 959 210</string>
+              <string>hstem 1292 208</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>com.fontlab.ttprogram</key>
       <data>
-        <ttProgram>
-          <ttc code="mdeltah" delta="3" point="mh01" ppm1="23" ppm2="23"/>
-          <ttc code="mdeltav" delta="4" point="mv01" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="-2" point="mv02" ppm1="13" ppm2="13"/>
-          <ttc code="mdeltav" delta="1" point="mh01" ppm1="13" ppm2="13"/>
-        </ttProgram>
+      SUNBOGRIUlFjbTluY21GdFBnb2dJQ0FnUEhSMFl5QmpiMlJsUFNKdFpHVnNkR0ZvSWlCd
+      2IybHVkRDBpYldnd01TSWdaR1ZzZEdFOUlqTWlJSEJ3YlRFOUlqSXpJaUJ3Y0cweVBTSX
+      lNeUl2UGdvZ0lDQWdQSFIwWXlCamIyUmxQU0p0WkdWc2RHRjJJaUJ3YjJsdWREMGliWFl
+      3TVNJZ1pHVnNkR0U5SWpRaUlIQndiVEU5SWpFeklpQndjRzB5UFNJeE15SXZQZ29nSUNB
+      Z1BIUjBZeUJqYjJSbFBTSnRaR1ZzZEdGMklpQndiMmx1ZEQwaWJYWXdNaUlnWkdWc2RHR
+      TlJaTB5SWlCd2NHMHhQU0l4TXlJZ2NIQnRNajBpTVRNaUx6NEtJQ0FnSUR4MGRHTWdZMj
+      lrWlQwaWJXUmxiSFJoZGlJZ2NHOXBiblE5SW0xb01ERWlJR1JsYkhSaFBTSXhJaUJ3Y0c
+      weFBTSXhNeUlnY0hCdE1qMGlNVE1pTHo0S0lDQThMM1IwVUhKdlozSmhiVDRL
       </data>
     </dict>
   </lib>

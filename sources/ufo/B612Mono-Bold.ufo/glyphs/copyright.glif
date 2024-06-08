@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="copyright" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="copyright" format="2">
   <advance width="1300"/>
   <unicode hex="00A9"/>
   <outline>
@@ -86,20 +86,26 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="577" width="124"/>
-            <hstem pos="791" width="98"/>
-            <hstem pos="1204" width="98"/>
-            <hstem pos="1393" width="124"/>
-            <vstem pos="180" width="124"/>
-            <vstem pos="409" width="165"/>
-            <vstem pos="996" width="124"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hr00</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 577 124</string>
+              <string>hstem 791 98</string>
+              <string>hstem 1204 98</string>
+              <string>hstem 1393 124</string>
+              <string>vstem 180 124</string>
+              <string>vstem 409 165</string>
+              <string>vstem 996 124</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
     </dict>
   </lib>
 </glyph>
